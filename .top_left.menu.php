@@ -4,7 +4,7 @@ $aMenuLinks = [
         "Каталог",
         "/catalog/",
         [],
-        ["DROPDOWN" => "Y"],
+        ["DROPDOWN" => "Y", "CLASS" => "catalog-opener"],
         ""
     ],
     [
