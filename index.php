@@ -4,6 +4,9 @@ require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 use Helpers\IblockHelper;
 
 $APPLICATION->SetTitle("HUT");
+$APPLICATION->SetPageProperty("NOT_SHOW_NAV_CHAIN", "Y");
+$APPLICATION->SetPageProperty("need_slider", 'Y');
+
 ?><? $APPLICATION->IncludeComponent(
 		"bitrix:catalog.section",
 		"main-page",
@@ -27,7 +30,7 @@ $APPLICATION->SetTitle("HUT");
 			"CACHE_TYPE" => "A",
 			"COMPATIBLE_MODE" => "N",
 			"CONVERT_CURRENCY" => "N",
-			"CUSTOM_FILTER" => "{\"CLASS_ID\":\"CondGroup\",\"DATA\":{\"All\":\"AND\",\"True\":\"True\"},\"CHILDREN\":[{\"CLASS_ID\":\"CondIBProp:89:1397\",\"DATA\":{\"logic\":\"Equal\",\"value\":14194}}]}",
+			"CUSTOM_FILTER" => "{\"CLASS_ID\":\"CondGroup\",\"DATA\":{\"All\":\"AND\",\"True\":\"True\"},\"CHILDREN\":[{\"CLASS_ID\":\"CondIBProp:88:1397\",\"DATA\":{\"logic\":\"Equal\",\"value\":14217}}]}",
 			"DETAIL_URL" => "",
 			"DISABLE_INIT_JS_IN_COMPONENT" => "N",
 			"DISPLAY_BOTTOM_PAGER" => "Y",
@@ -83,7 +86,7 @@ $APPLICATION->SetTitle("HUT");
 			"PAGER_SHOW_ALWAYS" => "N",
 			"PAGER_TEMPLATE" => ".default",
 			"PAGER_TITLE" => "Товары",
-			"PAGE_ELEMENT_COUNT" => "4",
+			"PAGE_ELEMENT_COUNT" => "24",
 			"PARTIAL_PRODUCT_PROPERTIES" => "N",
 			"PRICE_CODE" => array(
 				0 => "BASE",
@@ -95,7 +98,7 @@ $APPLICATION->SetTitle("HUT");
 			"PRODUCT_PROPERTIES" => array(),
 			"PRODUCT_PROPS_VARIABLE" => "prop",
 			"PRODUCT_QUANTITY_VARIABLE" => "quantity",
-			"PRODUCT_ROW_VARIANTS" => "[{'VARIANT':'3','BIG_DATA':false}]",
+			"PRODUCT_ROW_VARIANTS" => "[{'VARIANT':'3','BIG_DATA':false},{'VARIANT':'3','BIG_DATA':false},{'VARIANT':'3','BIG_DATA':false},{'VARIANT':'3','BIG_DATA':false},{'VARIANT':'3','BIG_DATA':false},{'VARIANT':'3','BIG_DATA':false}]",
 			"PRODUCT_SUBSCRIPTION" => "N",
 			"PROPERTY_CODE" => array(
 				0 => "",
@@ -138,7 +141,10 @@ $APPLICATION->SetTitle("HUT");
 			"USE_MAIN_ELEMENT_SECTION" => "N",
 			"USE_PRICE_COUNT" => "N",
 			"USE_PRODUCT_QUANTITY" => "N",
-			"COMPONENT_TEMPLATE" => "main-page"
+			"COMPONENT_TEMPLATE" => "main-page",
+			"LINK_VALUE" => "/catalog/novinki/",
+			"LINK_TEXT" => "Все новинки",
+			"BLOCK_TITLE" => "Новинки"
 		),
 		false
 	); ?><? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
