@@ -147,4 +147,33 @@ $APPLICATION->SetPageProperty("need_slider", 'Y');
 			"BLOCK_TITLE" => "Новинки"
 		),
 		false
-	); ?><? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
+	); ?>
+
+<div class="main-page__promo container">
+	<div class="main-page__promo-inner">
+		<div class="main-page__promo-img">
+			<? $APPLICATION->IncludeComponent(
+				"bitrix:main.include",
+				"",
+				[
+					"AREA_FILE_SHOW" => "file",
+					"PATH" => "/include/main/promo/img.php",
+				],
+				false,
+			); ?>
+		</div>
+		<div class="main-page__promo-text">
+			<? $APPLICATION->IncludeComponent(
+				"bitrix:main.include",
+				"",
+				[
+					"AREA_FILE_SHOW" => "file",
+					"PATH" => "/include/main/promo/text.php",
+				],
+				false,
+			); ?>
+		</div>
+	</div>
+</div>
+
+<? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
