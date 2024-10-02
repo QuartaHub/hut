@@ -176,6 +176,45 @@ $APPLICATION->SetPageProperty("need_slider", 'Y');
 	</div>
 </div>
 
+<? $APPLICATION->IncludeComponent(
+	"bitrix:catalog.section.list",
+	"main-sections",
+	array(
+		"ADDITIONAL_COUNT_ELEMENTS_FILTER" => "additionalCountFilter",
+		"ADD_SECTIONS_CHAIN" => "N",
+		"CACHE_FILTER" => "N",
+		"CACHE_GROUPS" => "Y",
+		"CACHE_TIME" => "36000000",
+		"CACHE_TYPE" => "A",
+		"COUNT_ELEMENTS" => "N",
+		"COUNT_ELEMENTS_FILTER" => "CNT_ACTIVE",
+		"FILTER_NAME" => "mainSectionsFilter",
+		"HIDE_SECTIONS_WITH_ZERO_COUNT_ELEMENTS" => "N",
+		"IBLOCK_ID" => IblockHelper::getIdByCode("hutcatalog"),
+		"IBLOCK_TYPE" => "hut",
+		"SECTION_CODE" => "",
+		"SECTION_FIELDS" => array(
+			0 => "ID",
+			1 => "SORT",
+			2 => "",
+		),
+		"SECTION_ID" => $_REQUEST["SECTION_ID"],
+		"SECTION_URL" => "",
+		"SECTION_USER_FIELDS" => array(
+			0 => "",
+			1 => "UF_SHOW_ON_MAIN",
+			2 => "UF_MAIN_IMG",
+			3 => "UF_NOT_SHOW_IN_MENU",
+			4 => "",
+		),
+		"SHOW_PARENT_NAME" => "Y",
+		"TOP_DEPTH" => "2",
+		"VIEW_MODE" => "LIST",
+		"COMPONENT_TEMPLATE" => "main-sections"
+	),
+	false
+); ?>
+
 <div class="container">
 	<? $APPLICATION->IncludeComponent(
 		"bitrix:news.list",
@@ -237,5 +276,6 @@ $APPLICATION->SetPageProperty("need_slider", 'Y');
 		)
 	); ?>
 </div>
+
 
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
