@@ -161,9 +161,9 @@ $APPLICATION->SetPageProperty("need_slider", 'Y');
 			"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
 			"PAGER_SHOW_ALL" => "N",
 			"PAGER_SHOW_ALWAYS" => "N",
-			"PAGER_TEMPLATE" => ".default",
+			"PAGER_TEMPLATE" => "main",
 			"PAGER_TITLE" => "Товары",
-			"PAGE_ELEMENT_COUNT" => "30",
+			"PAGE_ELEMENT_COUNT" => "16",
 			"PARTIAL_PRODUCT_PROPERTIES" => "N",
 			"PRICE_CODE" => array(
 				0 => "BASE",
