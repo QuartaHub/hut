@@ -1,42 +1,41 @@
-<?
-include_once($_SERVER['DOCUMENT_ROOT'].'/bitrix/modules/main/include/urlrewrite.php');
+<?php
+
+include_once($_SERVER['DOCUMENT_ROOT'] . '/bitrix/modules/main/include/urlrewrite.php');
+
+require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
+
+$APPLICATION->SetPageProperty('not-found-page', 'not-found-page');
 
 CHTTP::SetStatus("404 Not Found");
-@define("ERROR_404","Y");
+@define("ERROR_404", "Y");
 define("HIDE_SIDEBAR", true);
-
-require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 
 $APPLICATION->SetTitle("Страница не найдена");?>
 
-	<div class="bx-404-container">
-		<div class="bx-404-block"><img src="<?=SITE_DIR?>images/404.png" alt=""></div>
-		<div class="bx-404-text-block">Неправильно набран адрес, <br>или такой страницы на сайте больше не существует.</div>
-		<div class="">Вернитесь на <a href="<?=SITE_DIR?>">главную</a> или воспользуйтесь картой сайта.</div>
-	</div>
-	<div class="map-columns row">
-		<div class="col-sm-10 col-sm-offset-1">
-			<div class="bx-maps-title">Карта сайта:</div>
-		</div>
-	</div>
-
-
-	<div class="col-sm-offset-1 col-sm-4">
-		<div class="bx-map-title"><i class="fa fa-info-circle"></i> О магазине</div>
-		<?
-		$APPLICATION->IncludeComponent(
-			"bitrix:main.map",
-			".default",
-			array(
-				"CACHE_TYPE" => "A",
-				"CACHE_TIME" => "36000000",
-				"SET_TITLE" => "N",
-				"LEVEL" => "3",
-				"COL_NUM" => "2",
-				"SHOW_DESCRIPTION" => "Y",
-				"COMPONENT_TEMPLATE" => ".default"
+<section class="c404">
+ <div class="c404__container">
+	<img src="/img/404.png" alt="" class="c404__img">
+	<h1 class="c404__title">Такой страницы нет</h1>
+	<p class="c404__text">Попробуйте воспользоваться <a href="#">поиском</a> или посмотрите на других страницах:
+	</p>
+	<?$APPLICATION->IncludeComponent("bitrix:menu", "404_menu", Array(
+		"ALLOW_MULTI_SELECT" => "N",	// Разрешить несколько активных пунктов одновременно
+			"CHILD_MENU_TYPE" => "left",	// Тип меню для остальных уровней
+			"DELAY" => "N",	// Откладывать выполнение шаблона меню
+			"MAX_LEVEL" => "1",	// Уровень вложенности меню
+			"MENU_CACHE_GET_VARS" => array(	// Значимые переменные запроса
+				0 => "",
 			),
-			false
-		);?>
-	</div>
-<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+			"MENU_CACHE_TIME" => "3600",	// Время кеширования (сек.)
+			"MENU_CACHE_TYPE" => "N",	// Тип кеширования
+			"MENU_CACHE_USE_GROUPS" => "Y",	// Учитывать права доступа
+			"ROOT_MENU_TYPE" => "left",	// Тип меню для первого уровня
+			"USE_EXT" => "N",	// Подключать файлы с именами вида .тип_меню.menu_ext.php
+		),
+		false
+	);?>
+ </div>
+</section>
+
+
+<? //require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/epilog_after.php");
