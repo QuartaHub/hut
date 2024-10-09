@@ -14,7 +14,7 @@ $APPLICATION->SetTitle("Страница не найдена");?>
 
 <section class="c404">
  <div class="c404__container">
-	<img src="/img/404.png" alt="" class="c404__img">
+	<img src="<?=SITE_TEMPLATE_PATH?>/img/404.png" alt="" class="c404__img">
 	<h1 class="c404__title">Такой страницы нет</h1>
 	<p class="c404__text">Попробуйте воспользоваться <a href="#">поиском</a> или посмотрите на других страницах:
 	</p>
@@ -38,4 +38,4 @@ $APPLICATION->SetTitle("Страница не найдена");?>
 </section>
 
 
-<? //require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/epilog_after.php");
+<? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
