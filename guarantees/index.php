@@ -43,7 +43,7 @@ $APPLICATION->SetTitle("Гарантии");
 		),
 		"FILTER_NAME" => "",	// Фильтр
 		"HIDE_LINK_WHEN_NO_DETAIL" => "N",	// Скрывать ссылку, если нет детального описания
-		"IBLOCK_ID" => "6",	// Код информационного блока
+		"IBLOCK_ID" => IblockHelper::getIdByCode('guarantee'),	// Код информационного блока
 		"IBLOCK_TYPE" => "site",	// Тип информационного блока (используется только для проверки)
 		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",	// Включать инфоблок в цепочку навигации
 		"INCLUDE_SUBSECTIONS" => "Y",	// Показывать элементы подразделов раздела

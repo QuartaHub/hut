@@ -113,7 +113,7 @@ $APPLICATION->SetTitle("Доставка");
 				),
 				"FILTER_NAME" => "",
 				"HIDE_LINK_WHEN_NO_DETAIL" => "N",
-				"IBLOCK_ID" => "7",
+				"IBLOCK_ID" => IblockHelper::getIdByCode('pickup_points'),
 				"IBLOCK_TYPE" => "site",
 				"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
 				"INCLUDE_SUBSECTIONS" => "Y",
