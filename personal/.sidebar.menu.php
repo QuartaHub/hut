@@ -1,0 +1,46 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Личные данные", 
+		"/personal/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Заказы", 
+		"/order/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Адреса", 
+		"/adress/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Отзывы", 
+		"/reviews/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Избранное", 
+		"/favorite/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Выйти", 
+		"/?logout=yes&=bitrix_sessid_get()", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>
