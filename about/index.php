@@ -3,6 +3,22 @@ require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle('О компании');
 ?>
 
+<script>
+	document.querySelector('.header__string').remove()
+	document.querySelector('.header').classList.add('header--about')
+	document.querySelector('.header').style.position = 'fixed'
+	document.querySelector('.header').style.width = '100%'
+
+	window.addEventListener('scroll', function () {
+		if (window.scrollY <= 10) {
+		document.querySelector('.header').classList.add('header--about')
+		}
+		else {
+		document.querySelector('.header').classList.remove('header--about')
+		}
+	});
+</script>
+
 <section class="aboutHead" style="background: url(<?=SITE_TEMPLATE_PATH?>/img/pattern.png) no-repeat center / cover; background-color: #171a1f;">
 	<div class="aboutHead__container">
 		<? $APPLICATION->IncludeComponent(
