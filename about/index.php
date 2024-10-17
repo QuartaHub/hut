@@ -1,9 +1,9 @@
 <?php
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle('О компании');
+$APPLICATION->SetPageProperty("CUSTOM_BREADCRUMBS", "Y");
 ?>
-
-<section class="aboutHead" style="background: url(<?=SITE_TEMPLATE_PATH?>/img/pattern.png) no-repeat center / cover; background-color: #171a1f;">
+<section class="aboutHead" style="background: url(<?= SITE_TEMPLATE_PATH ?>/img/pattern.png) no-repeat center / cover; background-color: #171a1f;">
 	<div class="aboutHead__container">
 		<? $APPLICATION->IncludeComponent(
 			"bitrix:breadcrumb",
@@ -81,10 +81,10 @@ $APPLICATION->SetTitle('О компании');
 		</div>
 
 		<div class="about__gallery">
-			<img src="<?=SITE_TEMPLATE_PATH?>/img/gal/1.jpg" alt="">
-			<img src="<?=SITE_TEMPLATE_PATH?>/img/gal/1.jpg" alt="">
-			<img src="<?=SITE_TEMPLATE_PATH?>/img/gal/1.jpg" alt="">
-			<img src="<?=SITE_TEMPLATE_PATH?>/img/gal/1.jpg" alt="">
+			<img src="<?= SITE_TEMPLATE_PATH ?>/img/gal/1.jpg" alt="">
+			<img src="<?= SITE_TEMPLATE_PATH ?>/img/gal/1.jpg" alt="">
+			<img src="<?= SITE_TEMPLATE_PATH ?>/img/gal/1.jpg" alt="">
+			<img src="<?= SITE_TEMPLATE_PATH ?>/img/gal/1.jpg" alt="">
 		</div>
 	</div>
 </section>

@@ -5,9 +5,21 @@ use Helpers\IblockHelper;
 
 $APPLICATION->SetTitle("Каталог");
 $APPLICATION->SetPageProperty("need_slider", 'Y');
-?><? $APPLICATION->IncludeComponent(
-	"bitrix:catalog", 
-	"main", 
+?>
+<? $APPLICATION->IncludeComponent(
+	"bitrix:breadcrumb",
+	"breadcrumb",
+	array(
+		"PATH" => "",
+		"SITE_ID" => "ht",
+		"START_FROM" => "0",
+		"COMPONENT_TEMPLATE" => "breadcrumb"
+	),
+	false
+); ?>
+<? $APPLICATION->IncludeComponent(
+	"bitrix:catalog",
+	"main",
 	array(
 		"ACTION_VARIABLE" => "action",
 		"ADD_ELEMENT_CHAIN" => "Y",
@@ -172,8 +184,7 @@ $APPLICATION->SetPageProperty("need_slider", 'Y');
 		"PRICE_VAT_SHOW_VALUE" => "N",
 		"PRODUCT_DISPLAY_MODE" => "N",
 		"PRODUCT_ID_VARIABLE" => "id",
-		"PRODUCT_PROPERTIES" => array(
-		),
+		"PRODUCT_PROPERTIES" => array(),
 		"PRODUCT_PROPS_VARIABLE" => "prop",
 		"PRODUCT_QUANTITY_VARIABLE" => "quantity",
 		"PRODUCT_SUBSCRIPTION" => "Y",
