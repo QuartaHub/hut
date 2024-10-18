@@ -3,6 +3,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 
 global $APPLICATION;
 $APPLICATION->SetTitle("Корзина");
+$APPLICATION->SetPageProperty("need_slider", 'Y');
 ?><div class="basket-container">
 	<div class="basket-top-block">
 		 <?$APPLICATION->IncludeComponent(
