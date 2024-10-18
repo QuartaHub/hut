@@ -1,6 +1,3 @@
-<?
-$sSectionName = "Корзина";
-$arDirProperties = Array(
-
-);
-?>
+<?php
+$sSectionName = 'Корзина';
+$arDirProperties = [];
