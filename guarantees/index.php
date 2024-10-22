@@ -1,31 +1,25 @@
 <?
-require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
-
-use Helpers\IblockHelper;
-
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Гарантии");
 ?>
 
 <section class="guaranteesHead">
-	<div class="guaranteesHead__container">
-		<? $APPLICATION->IncludeComponent(
-			"bitrix:breadcrumb",
-			"breadcrumbs_line",
-			array(
-				"PATH" => "",
-				"SITE_ID" => "h1",
-				"START_FROM" => "0",
-			),
-			false
-		); ?>
+ <div class="guaranteesHead__container">
+	<?$APPLICATION->IncludeComponent("bitrix:breadcrumb", "breadcrumbs_line", Array(
+		"PATH" => "",	// Путь, для которого будет построена навигационная цепочка (по умолчанию, текущий путь)
+			"SITE_ID" => "s1",	// Cайт (устанавливается в случае многосайтовой версии, когда DOCUMENT_ROOT у сайтов разный)
+			"START_FROM" => "0",	// Номер пункта, начиная с которого будет построена навигационная цепочка
+		),
+		false
+	);?>
 
-		<h1 class="guaranteesHead__title"><?php $APPLICATION->ShowTitle(false); ?></h1>
-	</div>
+	<h1 class="guaranteesHead__title"><?php $APPLICATION->ShowTitle(false);?></h1>
+ </div>
 </section>
 
-<? $APPLICATION->IncludeComponent(
-	"bitrix:news.list",
-	"guarantees",
+<?$APPLICATION->IncludeComponent(
+	"bitrix:news.list", 
+	"guarantees", 
 	array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"ADD_SECTIONS_CHAIN" => "N",
@@ -52,8 +46,8 @@ $APPLICATION->SetTitle("Гарантии");
 		),
 		"FILTER_NAME" => "",
 		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
-		"IBLOCK_ID" => IblockHelper::getIdByCode('guarantee'),
-		"IBLOCK_TYPE" => "site",
+		"IBLOCK_ID" => "11",
+		"IBLOCK_TYPE" => "hut",
 		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
 		"INCLUDE_SUBSECTIONS" => "Y",
 		"MESSAGE_404" => "",
@@ -84,64 +78,65 @@ $APPLICATION->SetTitle("Гарантии");
 		"SORT_ORDER1" => "ASC",
 		"SORT_ORDER2" => "DESC",
 		"STRICT_SECTION_CHECK" => "N",
+		"COMPONENT_TEMPLATE" => "guarantees"
 	),
 	false
-); ?>
+);?>
 
-<div class="guaranteesCard">
-	<div class="guaranteesCard__wrap">
-		<div class="guaranteesCard__card">
-			<? $APPLICATION->IncludeComponent(
-				"bitrix:main.include",
-				"",
-				array(
-					"AREA_FILE_SHOW" => "file",
-					"AREA_FILE_SUFFIX" => "inc",
-					"EDIT_TEMPLATE" => "",
-					"PATH" => "/include/guarantees/block1.php"
-				)
-			); ?>
-		</div>
+      <div class="guaranteesCard">
+         <div class="guaranteesCard__wrap">
+            <div class="guaranteesCard__card">
+               <?$APPLICATION->IncludeComponent(
+					"bitrix:main.include",
+					"",
+					Array(
+						"AREA_FILE_SHOW" => "file",
+						"AREA_FILE_SUFFIX" => "inc",
+						"EDIT_TEMPLATE" => "",
+						"PATH" => "/include/guarantees/block1.php"
+					)
+				);?>
+            </div>
 
-		<div class="guaranteesCard__card">
-			<? $APPLICATION->IncludeComponent(
-				"bitrix:main.include",
-				"",
-				array(
-					"AREA_FILE_SHOW" => "file",
-					"AREA_FILE_SUFFIX" => "inc",
-					"EDIT_TEMPLATE" => "",
-					"PATH" => "/include/guarantees/block2.php"
-				)
-			); ?>
-		</div>
+            <div class="guaranteesCard__card">
+               <?$APPLICATION->IncludeComponent(
+					"bitrix:main.include",
+					"",
+					Array(
+						"AREA_FILE_SHOW" => "file",
+						"AREA_FILE_SUFFIX" => "inc",
+						"EDIT_TEMPLATE" => "",
+						"PATH" => "/include/guarantees/block2.php"
+					)
+				);?>
+            </div>
 
-		<div class="guaranteesCard__card guaranteesCard__card--gray">
-			<? $APPLICATION->IncludeComponent(
-				"bitrix:main.include",
-				"",
-				array(
-					"AREA_FILE_SHOW" => "file",
-					"AREA_FILE_SUFFIX" => "inc",
-					"EDIT_TEMPLATE" => "",
-					"PATH" => "/include/guarantees/block3.php"
-				)
-			); ?>
-		</div>
+            <div class="guaranteesCard__card guaranteesCard__card--gray">
+               <?$APPLICATION->IncludeComponent(
+					"bitrix:main.include",
+					"",
+					Array(
+						"AREA_FILE_SHOW" => "file",
+						"AREA_FILE_SUFFIX" => "inc",
+						"EDIT_TEMPLATE" => "",
+						"PATH" => "/include/guarantees/block3.php"
+					)
+				);?>
+            </div>
 
-		<div class="guaranteesCard__card guaranteesCard__card--orange">
-			<? $APPLICATION->IncludeComponent(
-				"bitrix:main.include",
-				"",
-				array(
-					"AREA_FILE_SHOW" => "file",
-					"AREA_FILE_SUFFIX" => "inc",
-					"EDIT_TEMPLATE" => "",
-					"PATH" => "/include/guarantees/block4.php"
-				)
-			); ?>
-		</div>
-	</div>
-</div>
+            <div class="guaranteesCard__card guaranteesCard__card--orange">
+               <?$APPLICATION->IncludeComponent(
+					"bitrix:main.include",
+					"",
+					Array(
+						"AREA_FILE_SHOW" => "file",
+						"AREA_FILE_SUFFIX" => "inc",
+						"EDIT_TEMPLATE" => "",
+						"PATH" => "/include/guarantees/block4.php"
+					)
+				);?>
+            </div>
+         </div>
+      </div>
 
-<? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

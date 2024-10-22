@@ -1,31 +1,25 @@
 <?
-require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
-
-use Helpers\IblockHelper;
-
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Адреса магазинов");
 ?>
 
 <section class="guaranteesHead">
-	<div class="guaranteesHead__container">
-		<? $APPLICATION->IncludeComponent(
-			"bitrix:breadcrumb",
-			"breadcrumbs_line",
-			array(
-				"PATH" => "",
-				"SITE_ID" => "h1",
-				"START_FROM" => "0",
-			),
-			false
-		); ?>
+ <div class="guaranteesHead__container">
+	<?$APPLICATION->IncludeComponent("bitrix:breadcrumb", "breadcrumbs_line", Array(
+		"PATH" => "",	// Путь, для которого будет построена навигационная цепочка (по умолчанию, текущий путь)
+			"SITE_ID" => "s1",	// Cайт (устанавливается в случае многосайтовой версии, когда DOCUMENT_ROOT у сайтов разный)
+			"START_FROM" => "0",	// Номер пункта, начиная с которого будет построена навигационная цепочка
+		),
+		false
+	);?>
 
-		<h1 class="guaranteesHead__title"><?php $APPLICATION->ShowTitle(false); ?></h1>
-	</div>
+	<h1 class="guaranteesHead__title"><?php $APPLICATION->ShowTitle(false);?></h1>
+ </div>
 </section>
 
-<? $APPLICATION->IncludeComponent(
-	"bitrix:news.list",
-	"addresses",
+<?$APPLICATION->IncludeComponent(
+	"bitrix:news.list", 
+	"addresses", 
 	array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"ADD_SECTIONS_CHAIN" => "N",
@@ -52,8 +46,8 @@ $APPLICATION->SetTitle("Адреса магазинов");
 		),
 		"FILTER_NAME" => "",
 		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
-		"IBLOCK_ID" => IblockHelper::getIdByCode('contacts'),
-		"IBLOCK_TYPE" => "site",
+		"IBLOCK_ID" => "10",
+		"IBLOCK_TYPE" => "hut",
 		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
 		"INCLUDE_SUBSECTIONS" => "Y",
 		"MESSAGE_404" => "",
@@ -70,8 +64,8 @@ $APPLICATION->SetTitle("Адреса магазинов");
 		"PREVIEW_TRUNCATE_LEN" => "",
 		"PROPERTY_CODE" => array(
 			0 => "MAP",
-			1 => "MAIL",
-			2 => "PHONE",
+			1 => "PHONE",
+			2 => "MAIL",
 			3 => "",
 		),
 		"SET_BROWSER_TITLE" => "N",
@@ -89,6 +83,6 @@ $APPLICATION->SetTitle("Адреса магазинов");
 		"COMPONENT_TEMPLATE" => "addresses"
 	),
 	false
-); ?>
+);?>
 
-<? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
