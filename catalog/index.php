@@ -2,7 +2,31 @@
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 
 use Helpers\IblockHelper;
+use Bitrix\Main\Application;
+$request = Application::getInstance()->getContext()->getRequest()->toArray();
 
+$sort = 'sort';
+$order = 'asc';
+if ($request['sort']){
+    $sort = $request['sort'];
+    $order = $request['order'] ?? 'asc';
+}
+
+global $arrFilter;
+$arrFilter = [];
+
+if ($request['sections']){
+    $arrFilter['SECTION_ID'] = $request['sections'];
+}
+if ($request['type']){
+    $arrFilter['PROPERTY_TYPE'] = $request['type'];
+}
+if ($request['size']){
+    $arrFilter['PROPERTY_SIZE'] = $request['size'];
+}
+if ($request['color']){
+    $arrFilter['PROPERTY_COLOR'] = $request['color'];
+}
 $APPLICATION->SetTitle("Каталог");
 $APPLICATION->SetPageProperty("need_slider", 'Y');
 ?><? $APPLICATION->IncludeComponent(
@@ -82,6 +106,7 @@ $APPLICATION->SetPageProperty("need_slider", 'Y');
 		"ELEMENT_SORT_ORDER2" => "desc",
 		"FILTER_HIDE_ON_MOBILE" => "N",
 		"FILTER_VIEW_MODE" => "VERTICAL",
+        "FILTER_NAME" => "arrFilter",
 		"GIFTS_DETAIL_BLOCK_TITLE" => "Выберите один из подарков",
 		"GIFTS_DETAIL_HIDE_BLOCK_TITLE" => "N",
 		"GIFTS_DETAIL_PAGE_ELEMENT_COUNT" => "4",
