@@ -1,8 +1,5 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
-
-use Helpers\IblockHelper;
-
 $APPLICATION->SetTitle("Гарантии");
 ?>
 
@@ -12,9 +9,9 @@ $APPLICATION->SetTitle("Гарантии");
 			"bitrix:breadcrumb",
 			"breadcrumbs_line",
 			array(
-				"PATH" => "",
-				"SITE_ID" => "h1",
-				"START_FROM" => "0",
+				"PATH" => "",	// Путь, для которого будет построена навигационная цепочка (по умолчанию, текущий путь)
+				"SITE_ID" => "s1",	// Cайт (устанавливается в случае многосайтовой версии, когда DOCUMENT_ROOT у сайтов разный)
+				"START_FROM" => "0",	// Номер пункта, начиная с которого будет построена навигационная цепочка
 			),
 			false
 		); ?>
@@ -52,8 +49,8 @@ $APPLICATION->SetTitle("Гарантии");
 		),
 		"FILTER_NAME" => "",
 		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
-		"IBLOCK_ID" => IblockHelper::getIdByCode('guarantee'),
-		"IBLOCK_TYPE" => "site",
+		"IBLOCK_ID" => "11",
+		"IBLOCK_TYPE" => "hut",
 		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
 		"INCLUDE_SUBSECTIONS" => "Y",
 		"MESSAGE_404" => "",
@@ -84,6 +81,7 @@ $APPLICATION->SetTitle("Гарантии");
 		"SORT_ORDER1" => "ASC",
 		"SORT_ORDER2" => "DESC",
 		"STRICT_SECTION_CHECK" => "N",
+		"COMPONENT_TEMPLATE" => "guarantees"
 	),
 	false
 ); ?>

@@ -1,8 +1,5 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
-
-use Helpers\IblockHelper;
-
 $APPLICATION->SetTitle("Доставка");
 ?>
 
@@ -10,11 +7,13 @@ $APPLICATION->SetTitle("Доставка");
 	<div class="guaranteesHead__container">
 		<? $APPLICATION->IncludeComponent(
 			"bitrix:breadcrumb",
-			"breadcrumbs_line",
+			"breadcrumb",
 			array(
 				"PATH" => "",
-				"SITE_ID" => "h1",
+				"SITE_ID" => "s1",
 				"START_FROM" => "0",
+				"COMPONENT_TEMPLATE" => "breadcrumb",
+				"WHITE_TEXT" => "Y"
 			),
 			false
 		); ?>
