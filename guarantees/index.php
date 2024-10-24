@@ -1,6 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle("Гарантии");
+
+use Helpers\IblockHelper;
 ?>
 
 <section class="guaranteesHead">
