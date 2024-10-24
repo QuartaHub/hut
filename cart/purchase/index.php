@@ -16,7 +16,7 @@ $APPLICATION->SetTitle("Оформление заказа"); ?><div class="conta
 	<div>
 		 <?$APPLICATION->IncludeComponent(
 	"bitrix:sale.order.ajax", 
-	"hut_order", 
+	"hut_order",
 	array(
 		"ACTION_VARIABLE" => "soa-action",
 		"ADDITIONAL_PICT_PROP_16" => "-",
