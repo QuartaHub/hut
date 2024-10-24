@@ -1,6 +1,6 @@
 <?
 $sSectionName = "Вопрос-ответ";
-$arDirProperties = Array(
-
-);
+$arDirProperties = [
+    
+];
 ?>

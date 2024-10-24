@@ -1,25 +1,28 @@
 <?
-require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle("Адреса магазинов");
 ?>
 
 <section class="guaranteesHead">
- <div class="guaranteesHead__container">
-	<?$APPLICATION->IncludeComponent("bitrix:breadcrumb", "breadcrumbs_line", Array(
-		"PATH" => "",	// Путь, для которого будет построена навигационная цепочка (по умолчанию, текущий путь)
-			"SITE_ID" => "s1",	// Cайт (устанавливается в случае многосайтовой версии, когда DOCUMENT_ROOT у сайтов разный)
-			"START_FROM" => "0",	// Номер пункта, начиная с которого будет построена навигационная цепочка
-		),
-		false
-	);?>
+	<div class="guaranteesHead__container">
+		<? $APPLICATION->IncludeComponent(
+			"bitrix:breadcrumb",
+			"breadcrumbs_line",
+			array(
+				"PATH" => "",	// Путь, для которого будет построена навигационная цепочка (по умолчанию, текущий путь)
+				"SITE_ID" => "s1",	// Cайт (устанавливается в случае многосайтовой версии, когда DOCUMENT_ROOT у сайтов разный)
+				"START_FROM" => "0",	// Номер пункта, начиная с которого будет построена навигационная цепочка
+			),
+			false
+		); ?>
 
-	<h1 class="guaranteesHead__title"><?php $APPLICATION->ShowTitle(false);?></h1>
- </div>
+		<h1 class="guaranteesHead__title"><?php $APPLICATION->ShowTitle(false); ?></h1>
+	</div>
 </section>
 
-<?$APPLICATION->IncludeComponent(
-	"bitrix:news.list", 
-	"addresses", 
+<? $APPLICATION->IncludeComponent(
+	"bitrix:news.list",
+	"addresses",
 	array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"ADD_SECTIONS_CHAIN" => "N",
@@ -83,6 +86,6 @@ $APPLICATION->SetTitle("Адреса магазинов");
 		"COMPONENT_TEMPLATE" => "addresses"
 	),
 	false
-);?>
+); ?>
 
-<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+<? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>

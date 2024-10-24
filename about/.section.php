@@ -1,6 +1,6 @@
 <?
 $sSectionName = "О нас";
-$arDirProperties = Array(
-
-);
+$arDirProperties = [
+    'headerClasses' => 'change'
+];
 ?>
