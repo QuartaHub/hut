@@ -1,9 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
+$APPLICATION->SetTitle("Доставка");
 
 use Helpers\IblockHelper;
-
-$APPLICATION->SetTitle("Доставка");
 ?>
 
 <section class="guaranteesHead">
@@ -13,7 +12,7 @@ $APPLICATION->SetTitle("Доставка");
 			"breadcrumbs_line",
 			array(
 				"PATH" => "",
-				"SITE_ID" => "h1",
+				"SITE_ID" => "ht",
 				"START_FROM" => "0",
 			),
 			false
