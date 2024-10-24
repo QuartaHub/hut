@@ -9,7 +9,7 @@ $APPLICATION->SetTitle("Вопрос-ответ");
 			"breadcrumbs_line",
 			array(
 				"PATH" => "",	// Путь, для которого будет построена навигационная цепочка (по умолчанию, текущий путь)
-				"SITE_ID" => "s1",	// Cайт (устанавливается в случае многосайтовой версии, когда DOCUMENT_ROOT у сайтов разный)
+				"SITE_ID" => "ht",	// Cайт (устанавливается в случае многосайтовой версии, когда DOCUMENT_ROOT у сайтов разный)
 				"START_FROM" => "0",	// Номер пункта, начиная с которого будет построена навигационная цепочка
 			),
 			false
@@ -65,7 +65,7 @@ $APPLICATION->SetTitle("Вопрос-ответ");
 				),
 				"FILTER_NAME" => "",
 				"HIDE_LINK_WHEN_NO_DETAIL" => "N",
-				"IBLOCK_ID" => "12",
+				"IBLOCK_ID" => IblockHelper::getIdByCode('faq_iblock'),
 				"IBLOCK_TYPE" => "hut",
 				"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
 				"INCLUDE_SUBSECTIONS" => "Y",
