@@ -140,7 +140,7 @@ $APPLICATION->SetPageProperty("need_slider", 'Y');
 		"MESS_BTN_COMPARE" => "Сравнение",
 		"MESS_BTN_DETAIL" => "Подробнее",
 		"MESS_BTN_LAZY_LOAD" => "Показать ещё",
-		"MESS_BTN_SUBSCRIBE" => "Подписаться",
+		"MESS_BTN_SUBSCRIBE" => "Сообщить о поступлении",
 		"MESS_COMMENTS_TAB" => "Комментарии",
 		"MESS_DESCRIPTION_TAB" => "Описание",
 		"MESS_NOT_AVAILABLE" => "Нет в наличии",
