@@ -3,7 +3,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 
 global $APPLICATION;
 $APPLICATION->SetTitle("Оформление заказа"); ?><div class="container">
-	 <?$APPLICATION->IncludeComponent(
+	 <?php $APPLICATION->IncludeComponent(
 	"bitrix:breadcrumb",
 	"breadcrumbs_line",
 	Array(
@@ -14,7 +14,7 @@ $APPLICATION->SetTitle("Оформление заказа"); ?><div class="conta
 );?>
 	<h1><?=$APPLICATION->GetTitle()?></h1>
 	<div>
-		 <?$APPLICATION->IncludeComponent(
+		 <?php $APPLICATION->IncludeComponent(
 	"bitrix:sale.order.ajax", 
 	"hut_order", 
 	array(
