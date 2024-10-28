@@ -16,7 +16,7 @@ $APPLICATION->SetTitle("Оформление заказа"); ?><div class="conta
 	<div>
 		 <?$APPLICATION->IncludeComponent(
 	"bitrix:sale.order.ajax", 
-	"hut_order",
+	"hut_order", 
 	array(
 		"ACTION_VARIABLE" => "soa-action",
 		"ADDITIONAL_PICT_PROP_16" => "-",
@@ -56,8 +56,12 @@ $APPLICATION->SetTitle("Оформление заказа"); ?><div class="conta
 		),
 		"PRODUCT_COLUMNS_VISIBLE" => array(
 			0 => "PREVIEW_PICTURE",
-			1 => "PROPS",
-			2 => "PRICE_FORMATED",
+			1 => "DETAIL_PICTURE",
+			2 => "PROPS",
+			3 => "PRICE_FORMATED",
+			4 => "PROPERTY_SIZE",
+			5 => "PROPERTY_COLOR",
+			6 => "PROPERTY_COLOR_CODE",
 		),
 		"PROPS_FADE_LIST_1" => array(
 			0 => "1",
