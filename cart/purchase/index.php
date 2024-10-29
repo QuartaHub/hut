@@ -62,6 +62,8 @@ $APPLICATION->SetTitle("Оформление заказа"); ?><div class="conta
 			4 => "PROPERTY_SIZE",
 			5 => "PROPERTY_COLOR",
 			6 => "PROPERTY_COLOR_CODE",
+			7 => "PROPERTY_MATERIAL",
+			8 => "PROPERTY_CLOTHES_SIZE",
 		),
 		"PROPS_FADE_LIST_1" => array(
 			0 => "1",
