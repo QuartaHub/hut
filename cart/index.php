@@ -39,9 +39,10 @@ $APPLICATION->SetPageProperty("need_slider", 'Y');
 			1 => "PROPS",
 			2 => "DELETE",
 			3 => "SUM",
-			4 => "PROPERTY_SIZE",
-			5 => "PROPERTY_COLOR",
-			6 => "PROPERTY_COLOR_CODE",
+			4 => "PROPERTY_MATERIAL",
+			5 => "PROPERTY_SIZE",
+			6 => "PROPERTY_COLOR",
+			7 => "PROPERTY_COLOR_CODE",
 		),
 		"COLUMNS_LIST_MOBILE" => array(
 			0 => "PREVIEW_PICTURE",
@@ -51,6 +52,7 @@ $APPLICATION->SetPageProperty("need_slider", 'Y');
 			4 => "PROPERTY_SIZE",
 			5 => "PROPERTY_COLOR",
 			6 => "PROPERTY_COLOR_CODE",
+			7 => "PROPERTY_MATERIAL",
 		),
 		"COMPATIBLE_MODE" => "Y",
 		"COMPONENT_TEMPLATE" => "hut_basket",
@@ -75,8 +77,7 @@ $APPLICATION->SetPageProperty("need_slider", 'Y');
 		"HIDE_COUPON" => "Y",
 		"LABEL_PROP" => array(
 		),
-		"OFFERS_PROPS" => array(
-		),
+		"OFFERS_PROPS" => "",
 		"PATH_TO_ORDER" => "/personal/order/make/",
 		"PRICE_DISPLAY_MODE" => "Y",
 		"PRICE_VAT_SHOW_VALUE" => "N",
