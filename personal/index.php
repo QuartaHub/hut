@@ -1,7 +1,5 @@
-<?
+<?php
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
-
-use Helpers\IblockHelper;
 
 $APPLICATION->SetTitle("Личный кабинет");
 ?>
@@ -20,8 +18,9 @@ $APPLICATION->SetTitle("Личный кабинет");
 	</div>
 </section>
 
-<div class="container personal-page">
-	<?$APPLICATION->IncludeComponent("bitrix:menu", "personal", Array(
+<div class="container with-sidebar">
+	<?php
+	$APPLICATION->IncludeComponent("bitrix:menu", "personal", Array(
 	"COMPONENT_TEMPLATE" => "",
 		"ROOT_MENU_TYPE" => "sidebar",	// Тип меню для первого уровня
 		"MENU_CACHE_TYPE" => "N",	// Тип кеширования
@@ -36,7 +35,8 @@ $APPLICATION->SetTitle("Личный кабинет");
 	),
 	false
 	);?>
-	<?$APPLICATION->IncludeComponent(
+	<?php
+	$APPLICATION->IncludeComponent(
 		"bitrix:main.profile",
 		"personal",
 		Array(
