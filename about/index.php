@@ -3,15 +3,15 @@ require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle('О компании');
 ?>
 
-<section class="aboutHead" style="background: url(<?=SITE_TEMPLATE_PATH?>/img/pattern.png) no-repeat center / cover; background-color: #171a1f;">
+<section class="aboutHead" style="background: url(<?= SITE_TEMPLATE_PATH ?>/img/pattern.png) no-repeat center / cover; background-color: #171a1f;">
 	<div class="aboutHead__container">
 		<? $APPLICATION->IncludeComponent(
 			"bitrix:breadcrumb",
 			"breadcrumbs_line_white",
 			array(
-				"PATH" => "",
-				"SITE_ID" => "h1",
-				"START_FROM" => "0",
+				"PATH" => "",	// Путь, для которого будет построена навигационная цепочка (по умолчанию, текущий путь)
+				"SITE_ID" => "ht",	// Cайт (устанавливается в случае многосайтовой версии, когда DOCUMENT_ROOT у сайтов разный)
+				"START_FROM" => "0",	// Номер пункта, начиная с которого будет построена навигационная цепочка
 			),
 			false
 		); ?>
@@ -81,10 +81,10 @@ $APPLICATION->SetTitle('О компании');
 		</div>
 
 		<div class="about__gallery">
-			<img src="<?=SITE_TEMPLATE_PATH?>/img/gal/1.jpg" alt="">
-			<img src="<?=SITE_TEMPLATE_PATH?>/img/gal/1.jpg" alt="">
-			<img src="<?=SITE_TEMPLATE_PATH?>/img/gal/1.jpg" alt="">
-			<img src="<?=SITE_TEMPLATE_PATH?>/img/gal/1.jpg" alt="">
+			<img src="<?= SITE_TEMPLATE_PATH ?>/img/gal/1.jpg" alt="">
+			<img src="<?= SITE_TEMPLATE_PATH ?>/img/gal/2.png" alt="">
+			<img src="<?= SITE_TEMPLATE_PATH ?>/img/gal/3.png" alt="">
+			<img src="<?= SITE_TEMPLATE_PATH ?>/img/gal/4.png" alt="">
 		</div>
 	</div>
 </section>
