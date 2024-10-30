@@ -156,6 +156,7 @@ if ($basketRes) {
 
                         $sections = CIBlockElement::GetElementGroups($productsId['MAIN_PRODUCT_ID'], true, ['ID', 'NAME']);
                         $mainSection = '';
+
                         if ($sections) {
                             while ($section = $sections->Fetch()) {
                                 $mainSection = $section['NAME'];
