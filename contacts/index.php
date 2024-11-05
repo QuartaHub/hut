@@ -4,24 +4,20 @@ $APPLICATION->SetTitle("Контакты");
 
 use Helpers\IblockHelper;
 ?>
-
 <section class="guaranteesHead">
 	<div class="guaranteesHead__container">
 		<? $APPLICATION->IncludeComponent(
 			"bitrix:breadcrumb",
 			"breadcrumbs_line",
 			array(
-				"PATH" => "",	// Путь, для которого будет построена навигационная цепочка (по умолчанию, текущий путь)
-				"SITE_ID" => "ht",	// Cайт (устанавливается в случае многосайтовой версии, когда DOCUMENT_ROOT у сайтов разный)
-				"START_FROM" => "0",	// Номер пункта, начиная с которого будет построена навигационная цепочка
-			),
-			false
+				"PATH" => "",
+				"SITE_ID" => "ht",
+				"START_FROM" => "0"
+			)
 		); ?>
-
 		<h1 class="guaranteesHead__title"><?php $APPLICATION->ShowTitle(false); ?></h1>
 	</div>
 </section>
-
 <? $APPLICATION->IncludeComponent(
 	"bitrix:news.list",
 	"contacts",
@@ -38,6 +34,7 @@ use Helpers\IblockHelper;
 		"CACHE_TIME" => "36000000",
 		"CACHE_TYPE" => "A",
 		"CHECK_DATES" => "Y",
+		"COMPONENT_TEMPLATE" => "contacts",
 		"DETAIL_URL" => "",
 		"DISPLAY_BOTTOM_PAGER" => "Y",
 		"DISPLAY_DATE" => "Y",
@@ -45,10 +42,7 @@ use Helpers\IblockHelper;
 		"DISPLAY_PICTURE" => "Y",
 		"DISPLAY_PREVIEW_TEXT" => "Y",
 		"DISPLAY_TOP_PAGER" => "N",
-		"FIELD_CODE" => array(
-			0 => "",
-			1 => "",
-		),
+		"FIELD_CODE" => array(0 => "", 1 => "",),
 		"FILTER_NAME" => "",
 		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
 		"IBLOCK_ID" => IblockHelper::getIdByCode('contacts'),
@@ -67,13 +61,7 @@ use Helpers\IblockHelper;
 		"PARENT_SECTION" => "",
 		"PARENT_SECTION_CODE" => "",
 		"PREVIEW_TRUNCATE_LEN" => "",
-		"PROPERTY_CODE" => array(
-			0 => "",
-			1 => "MAP",
-			2 => "MAIL",
-			3 => "PHONE",
-			4 => "",
-		),
+		"PROPERTY_CODE" => array(0 => "", 1 => "MAP", 2 => "MAIL", 3 => "PHONE", 4 => "",),
 		"SET_BROWSER_TITLE" => "N",
 		"SET_LAST_MODIFIED" => "N",
 		"SET_META_DESCRIPTION" => "N",
@@ -85,10 +73,98 @@ use Helpers\IblockHelper;
 		"SORT_BY2" => "ID",
 		"SORT_ORDER1" => "ASC",
 		"SORT_ORDER2" => "DESC",
-		"STRICT_SECTION_CHECK" => "N",
-		"COMPONENT_TEMPLATE" => "contacts"
-	),
-	false
+		"STRICT_SECTION_CHECK" => "N"
+	)
 ); ?>
-
+<section class="contacts bottom">
+	<div class="contacts__wrap">
+		<div class="contacts__card">
+			<h3 class="contacts__title">
+				<? $APPLICATION->IncludeComponent(
+					"bitrix:main.include",
+					"",
+					array(
+						"AREA_FILE_SHOW" => "file",
+						"AREA_FILE_SUFFIX" => "inc",
+						"EDIT_TEMPLATE" => "",
+						"PATH" => "/include/contacts/small_title.php"
+					)
+				); ?>
+			</h3>
+			<div class="contacts__info-wrap">
+				<div class="contacts__info">
+					<div class="contacts__icon">
+						<img src="/local/templates/hut/img/phone.svg" alt="">
+					</div>
+					<div class="contacts__inf phone">
+						<? $APPLICATION->IncludeComponent(
+							"bitrix:main.include",
+							"",
+							array(
+								"AREA_FILE_SHOW" => "file",
+								"AREA_FILE_SUFFIX" => "inc",
+								"EDIT_TEMPLATE" => "",
+								"PATH" => "/include/contacts/phone.php"
+							)
+						); ?>
+					</div>
+				</div>
+				<div class="contacts__info">
+					<div class="contacts__icon">
+						<img src="/local/templates/hut/img/email.svg" alt="">
+					</div>
+					<div class="contacts__inf">
+						<? $APPLICATION->IncludeComponent(
+							"bitrix:main.include",
+							"",
+							array(
+								"AREA_FILE_SHOW" => "file",
+								"AREA_FILE_SUFFIX" => "inc",
+								"EDIT_TEMPLATE" => "",
+								"PATH" => "/include/contacts/email.php"
+							)
+						); ?>
+					</div>
+				</div>
+				<div class="contacts__info">
+					<div class="contacts__icon">
+						<img src="/local/templates/hut/img/click.svg" alt="">
+					</div>
+					<div class="contacts__inf">
+						<? $APPLICATION->IncludeComponent(
+							"bitrix:main.include",
+							"",
+							array(
+								"AREA_FILE_SHOW" => "file",
+								"AREA_FILE_SUFFIX" => "inc",
+								"EDIT_TEMPLATE" => "",
+								"PATH" => "/include/contacts/click.php"
+							)
+						); ?>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="contacts__card form">
+			<? $APPLICATION->IncludeComponent(
+				"bitrix:form.result.new",
+				"contacts",
+				array(
+					"CACHE_TIME" => "3600",
+					"CACHE_TYPE" => "A",
+					"CHAIN_ITEM_LINK" => "",
+					"CHAIN_ITEM_TEXT" => "",
+					"EDIT_URL" => "result_edit.php",
+					"IGNORE_CUSTOM_TEMPLATE" => "N",
+					"LIST_URL" => "result_list.php",
+					"SEF_MODE" => "N",
+					"SUCCESS_URL" => "",
+					"USE_EXTENDED_ERRORS" => "N",
+					"VARIABLE_ALIASES" => array("RESULT_ID" => "RESULT_ID", "WEB_FORM_ID" => "WEB_FORM_ID"),
+					"WEB_FORM_ID" => 8
+				)
+			); ?>
+		</div>
+	</div>
+</section>
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
