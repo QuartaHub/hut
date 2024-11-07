@@ -1,46 +1,45 @@
 <?
-$aMenuLinks = Array(
-	Array(
-		"Личные данные", 
-		"/personal/", 
-		Array(), 
-		Array(), 
-		"" 
+$aMenuLinks = array(
+	array(
+		"Личные данные",
+		"/personal/",
+		array(),
+		array(),
+		""
 	),
-	Array(
-		"Заказы", 
-		"/orders/", 
-		Array(), 
-		Array(), 
-		"" 
+	array(
+		"Заказы",
+		"/orders/",
+		array(),
+		array(),
+		""
 	),
-	Array(
-		"Адреса", 
-		"/adress/", 
-		Array(), 
-		Array(), 
-		"" 
+	array(
+		"Адреса",
+		"/adress/",
+		array(),
+		array(),
+		""
 	),
-	Array(
-		"Отзывы", 
-		"/reviews/", 
-		Array(), 
-		Array(), 
-		"" 
+	array(
+		"Отзывы",
+		"/reviews/",
+		array(),
+		array(),
+		""
 	),
-	Array(
-		"Избранное", 
-		"/favorite/", 
-		Array(), 
-		Array(), 
-		"" 
+	array(
+		"Избранное",
+		"/favorites/",
+		array(),
+		array(),
+		""
 	),
-	Array(
-		"Выйти", 
-		"/?logout=yes&=bitrix_sessid_get()", 
-		Array(), 
-		Array(), 
-		"" 
+	array(
+		"Выйти",
+		"/?logout=yes&=bitrix_sessid_get()",
+		array(),
+		array(),
+		""
 	)
 );
-?>
