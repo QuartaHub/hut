@@ -22,7 +22,7 @@ $APPLICATION->SetPageProperty("need_slider", 'Y');
 			"BASKET_URL" => "/cart/",
 			"BIG_DATA_RCM_TYPE" => "personal",
 			"CACHE_FILTER" => "N",
-			"CACHE_GROUPS" => "Y",
+			"CACHE_GROUPS" => "N",
 			"CACHE_TIME" => "36000000",
 			"CACHE_TYPE" => "A",
 			"COMMON_ADD_TO_BASKET_ACTION" => "ADD",
