@@ -1,24 +1,25 @@
-<?php
-$aMenuLinks = [
-    [
-        "Охота",
-        "/#/",
-        [],
-        [],
-        ""
-    ],
-    [
-        "Тактика",
-        "/#/",
-        [],
-        [],
-        ""
-    ],
-    [
-        "Город",
-        "/#/",
-        [],
-        [],
-        ""
-    ],
-];
+<?
+$aMenuLinks = Array(
+	Array(
+		"Охота", 
+		"/catalog/okhota/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Тактика", 
+		"/catalog/taktika/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Город", 
+		"/catalog/gorod/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

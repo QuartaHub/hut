@@ -1,52 +1,53 @@
-<?php
-$aMenuLinks = [
-    [
-        "Весь каталог",
-        "/#/",
-        [],
-        [],
-        ""
-    ],
-    [
-        "Новинки",
-        "/#/",
-        [],
-        [],
-        ""
-    ],
-    [
-        "Бестселлеры",
-        "/#/",
-        [],
-        [],
-        ""
-    ],
-    [
-        "Одежда",
-        "/#/",
-        [],
-        [],
-        ""
-    ],
-    [
-        "Аксессуары",
-        "/#/",
-        [],
-        [],
-        ""
-    ],
-    [
-        "Сумки",
-        "/#/",
-        [],
-        [],
-        ""
-    ],
-    [
-        "Обувь",
-        "/#/",
-        [],
-        [],
-        ""
-    ],
-];
+<?
+$aMenuLinks = Array(
+	Array(
+		"Весь каталог", 
+		"/catalog/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Новинки", 
+		"/catalog/novinki/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Бестселлеры", 
+		"/catalog/bestsellery/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Одежда", 
+		"/catalog/odezhda/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Аксессуары", 
+		"/catalog/aksessuary/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Сумки", 
+		"/catalog/sumki/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Обувь", 
+		"/catalog/obuv/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>
