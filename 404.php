@@ -16,7 +16,7 @@ $APPLICATION->SetTitle("Страница не найдена");?>
  <div class="c404__container">
 	<img src="<?=SITE_TEMPLATE_PATH?>/img/404.png" alt="" class="c404__img">
 	<h1 class="c404__title">Такой страницы нет</h1>
-	<p class="c404__text">Попробуйте воспользоваться <a href="#">поиском</a> или посмотрите на других страницах:
+	<p class="c404__text">Попробуйте воспользоваться <a id="search_opener" href="#">поиском</a> или посмотрите на других страницах:
 	</p>
 	<?$APPLICATION->IncludeComponent("bitrix:menu", "404_menu", Array(
 		"ALLOW_MULTI_SELECT" => "N",	// Разрешить несколько активных пунктов одновременно
