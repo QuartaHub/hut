@@ -40,7 +40,7 @@ $APPLICATION->SetPageProperty("need_slider", 'Y');
 		),
 		"FILTER_NAME" => "",
 		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
-		"IBLOCK_ID" => "101",
+		"IBLOCK_ID" => IblockHelper::getIdByCode("mainslider"),
 		"IBLOCK_TYPE" => "hut",
 		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
 		"INCLUDE_SUBSECTIONS" => "Y",
