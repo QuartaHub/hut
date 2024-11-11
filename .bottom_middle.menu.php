@@ -2,21 +2,21 @@
 $aMenuLinks = Array(
 	Array(
 		"Охота", 
-		"/catalog/okhota/", 
+		"/catalog/rod-zanyatiy/okhota/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"Тактика", 
-		"/catalog/taktika/", 
+		"/catalog/rod-zanyatiy/taktika/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"Город", 
-		"/catalog/gorod/", 
+		"/catalog/rod-zanyatiy/gorod/", 
 		Array(), 
 		Array(), 
 		"" 

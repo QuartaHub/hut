@@ -16,35 +16,35 @@ $aMenuLinks = Array(
 	),
 	Array(
 		"Адреса магазинов", 
-		"/addresses/", 
+		"/klientu/addresses/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"Гарантии", 
-		"/guarantees/", 
+		"/klientu/guarantees/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"Доставка", 
-		"/delivery/", 
+		"/klientu/delivery/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"Оплата", 
-		"/payment/", 
+		"/klientu/payment/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"Вопрос-ответ", 
-		"/faq/", 
+		"/klientu/faq/", 
 		Array(), 
 		Array(), 
 		"" 
