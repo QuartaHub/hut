@@ -1,3 +1,6 @@
 <?
 $sSectionName = "Личный кабинет";
-$arDirProperties = [];
+$arDirProperties = Array(
+
+);
+?>
