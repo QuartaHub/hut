@@ -16,28 +16,28 @@ $aMenuLinks = Array(
 	),
 	Array(
 		"Товары для охоты", 
-		"#", 
+		"/catalog/rod-zanyatiy/okhota/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"Тактическое снаряжение", 
-		"#", 
+		"/catalog/rod-zanyatiy/taktika/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"Повседневная одежда", 
-		"#", 
+		"/catalog/rod-zanyatiy/gorod/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
 		"Адреса магазинов", 
-		"/addresses/", 
+		"/klientu/addresses/", 
 		Array(), 
 		Array(), 
 		"" 

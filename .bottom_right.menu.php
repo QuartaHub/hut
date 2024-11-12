@@ -1,66 +1,60 @@
-<?php
-$aMenuLinks = [
-    [
-        "О нас",
-        "/about/",
-        [],
-        [],
-        ""
-    ],
-    [
-        "Контакты",
-        "/contacts/",
-        [],
-        [],
-        ""
-    ],
-    [
-        "Адреса магазинов",
-        "/addresses/",
-        [],
-        [],
-        ""
-    ],
-    [
-        "Где купить",
-        "/#/",
-        [],
-        [],
-        ""
-    ],
-    [
-        "Гарантии",
-        "/guarantees/",
-        [],
-        [],
-        ""
-    ],
-    [
-        "Доставка",
-        "/delivery/",
-        [],
-        [],
-        ""
-    ],
-    [
-        "Оплата",
-        "/payment/",
-        [],
-        [],
-        ""
-    ],
-    [
-        "Вопрос-ответ",
-        "/faq/",
-        [],
-        [],
-        ""
-    ],
-    [
-        "Положение о конфиденциальности",
-        "/privacy/",
-        [],
-        [],
-        ""
-    ],
-];
+<?
+$aMenuLinks = Array(
+	Array(
+		"О нас", 
+		"/about/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"/contacts/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Адреса магазинов", 
+		"/klientu/addresses/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Гарантии", 
+		"/klientu/guarantees/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Доставка", 
+		"/klientu/delivery/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Оплата", 
+		"/klientu/payment/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Вопрос-ответ", 
+		"/klientu/faq/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Положение о конфиденциальности", 
+		"/privacy/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

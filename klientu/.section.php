@@ -1,6 +1,3 @@
 <?
-$sSectionName = "Клиенту";
-$arDirProperties = Array(
-
-);
-?>
+$sSectionName = "";
+$arDirProperties = array();

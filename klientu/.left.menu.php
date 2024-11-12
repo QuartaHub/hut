@@ -1,11 +1,38 @@
 <?
-$aMenuLinks = Array(
-	Array(
-		"Адреса магазинов", 
-		"/klientu/adresa-magazinov/", 
-		Array(), 
-		Array(), 
-		"" 
+$aMenuLinks = array(
+	array(
+		"Адреса магазинов",
+		"/klientu/addresses/",
+		array(),
+		array(),
+		""
+	),
+	array(
+		"Гарантии",
+		"/klientu/guarantees/",
+		array(),
+		array(),
+		""
+	),
+	array(
+		"Доставка",
+		"/klientu/delivery/",
+		array(),
+		array(),
+		""
+	),
+	array(
+		"Оплата",
+		"/klientu/payment/",
+		array(),
+		array(),
+		""
+	),
+	array(
+		"FAQ",
+		"/klientu/faq/",
+		array(),
+		array(),
+		""
 	)
 );
-?>

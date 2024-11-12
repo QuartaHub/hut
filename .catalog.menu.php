@@ -38,4 +38,17 @@ if (CModule::IncludeModule('iblock')) {
         $GLOBALS["CACHE_MANAGER"]->RegisterTag("iblock_id_new");
 }
 
+$aMenuLinksExt[] = [
+    0 => 'Весь каталог',
+    1 => '/catalog/',
+    2 => [
+        0 => '/catalog/'
+    ],
+    3 => [
+        'FROM_IBLOCK' => 0,
+        'IS_PARENT' => 0,
+        'DEPTH_LEVEL' => 1,
+    ]
+];
+
 $aMenuLinks = array_merge($aMenuLinks, $aMenuLinksExt);
