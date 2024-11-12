@@ -281,7 +281,7 @@ $APPLICATION->SetPageProperty("need_slider", 'Y');
 			4 => "",
 		),
 		"SHOW_PARENT_NAME" => "Y",
-		"TOP_DEPTH" => "2",
+		"TOP_DEPTH" => "3",
 		"VIEW_MODE" => "LIST",
 		"COMPONENT_TEMPLATE" => "main-sections"
 	),
