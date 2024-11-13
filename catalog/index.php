@@ -70,7 +70,7 @@ $APPLICATION->SetPageProperty("need_slider", 'Y');
 		"DETAIL_SHOW_VIEWED" => "N",
 		"DETAIL_STRICT_SECTION_CHECK" => "N",
 		"DETAIL_USE_COMMENTS" => "N",
-		"DETAIL_USE_VOTE_RATING" => "Y",
+		"DETAIL_USE_VOTE_RATING" => "N",
 		"DISABLE_INIT_JS_IN_COMPONENT" => "N",
 		"DISPLAY_BOTTOM_PAGER" => "Y",
 		"DISPLAY_TOP_PAGER" => "N",
@@ -256,6 +256,8 @@ $APPLICATION->SetPageProperty("need_slider", 'Y');
 		"DETAIL_SLIDER_INTERVAL" => "5000",
 		"DETAIL_SLIDER_PROGRESS" => "N",
 		"DETAIL_VOTE_DISPLAY_AS_RATING" => "rating",
+		"BLOG_URL" => "reviews",
+		"BLOG_GROUP_ID" => "1",
 		"SEF_URL_TEMPLATES" => array(
 			"sections" => "",
 			"section" => "#SECTION_CODE_PATH#/",
