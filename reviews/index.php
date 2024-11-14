@@ -1,6 +1,8 @@
 <?php
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 
+use Helpers\IblockHelper;
+
 $APPLICATION->SetTitle("Личный кабинет");
 ?>
 <section class="guaranteesHead">
@@ -39,17 +41,14 @@ $APPLICATION->SetTitle("Личный кабинет");
 		false
 	); ?>
 	<?php
-	// $APPLICATION->IncludeComponent(
-	// 	"bitrix:main.profile",
-	// 	"personal",
-	// 	Array(
-	// 		"CHECK_RIGHTS" => "N",
-	// 		"SEND_INFO" => "N",
-	// 		"SET_TITLE" => "N",
-	// 		"USER_PROPERTY" => array(),
-	// 		"USER_PROPERTY_NAME" => ""
-	// 	)
-	// );
+	$APPLICATION->IncludeComponent(
+		"addamant:personal.reviews",
+		"",
+		array(
+			"CATALOG_ID" => IblockHelper::getIdByCode("hutcatalog"),
+			'OFFERS_CATALOG_ID' => IblockHelper::getIdByCode("hutcatalogoffers"),
+		)
+	);
 	?>
 </div>
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
