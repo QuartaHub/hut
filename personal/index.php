@@ -1,6 +1,11 @@
 <?php
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 
+global $USER;
+if (!$USER->IsAuthorized()) {
+    header('Location: /');
+}
+
 $APPLICATION->SetTitle("Личный кабинет");
 ?>
 <section class="guaranteesHead">
