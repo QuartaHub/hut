@@ -21,7 +21,7 @@ if (CModule::IncludeModule('iblock')) {
             $GLOBALS["CACHE_MANAGER"]->RegisterTag("iblock_id_" . $arIBlock["ID"]);
 
         if ($arIBlock["ACTIVE"] == "Y") {
-            $aMenuLinksExt = $APPLICATION->IncludeComponent("bitrix:menu.sections", "bootstrap_v4", array(
+            $aMenuLinksExt = $APPLICATION->IncludeComponent("custom:menu.sections", "", array(
                 "IS_SEF" => "Y",
                 "SEF_BASE_URL" => "",
                 "SECTION_PAGE_URL" => $arIBlock['SECTION_PAGE_URL'],
@@ -48,6 +48,7 @@ $aMenuLinksExt[] = [
         'FROM_IBLOCK' => 0,
         'IS_PARENT' => 0,
         'DEPTH_LEVEL' => 1,
+        'NOT_SHOW_IN_MENU' => 0,
     ]
 ];
 
