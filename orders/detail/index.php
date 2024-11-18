@@ -52,7 +52,7 @@ $APPLICATION->SetTitle("Личный кабинет");?>
 		"ID" => $ID,
 		"ONLY_INNER_FULL" => "N",
 		"PATH_TO_CANCEL" => "",
-		"PATH_TO_COPY" => "/cart/",
+		"PATH_TO_COPY" => "",
 		"PATH_TO_LIST" => "/orders/",
 		"PATH_TO_PAYMENT" => "payment.php",
 		"PICTURE_HEIGHT" => "110",
