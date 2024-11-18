@@ -76,7 +76,7 @@ $APPLICATION->SetTitle('О компании');
 						)
 					); ?>
 				</p>
-				<a href="/catalog/" class="about__link">В каталог</a>
+				<a href="/catalog/" class="about__link hover_2">В каталог</a>
 			</div>
 		</div>
 

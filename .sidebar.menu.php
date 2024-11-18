@@ -14,13 +14,13 @@ $aMenuLinks = array(
 		array(),
 		""
 	),
-	array(
-		"Адреса",
-		"/adress/",
-		array(),
-		array(),
-		""
-	),
+	// array(
+	// 	"Адреса",
+	// 	"/adress/",
+	// 	array(),
+	// 	array(),
+	// 	""
+	// ),
 	array(
 		"Отзывы",
 		"/reviews/",
