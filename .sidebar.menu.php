@@ -37,7 +37,7 @@ $aMenuLinks = array(
 	),
 	array(
 		"Выйти",
-		"/?logout=yes&=bitrix_sessid_get()",
+		"exit",
 		array(),
 		array(),
 		""
