@@ -3,8 +3,8 @@
 use Bitrix\Main\Loader;
 use Bitrix\Sale\Internals\BasketTable;
 use Bitrix\Sale\Fuser;
-use \Bitrix\Iblock\Elements\ElementHutCatalogTable;
-use \Bitrix\Iblock\Elements\ElementHutCatalogOffersTable;
+use \Bitrix\Iblock\Elements\ElementHutMainCatalogTable;
+use \Bitrix\Iblock\Elements\ElementHutMainOffersCatalogTable;
 use Bitrix\Highloadblock as HL;
 
 require_once($_SERVER['DOCUMENT_ROOT'] . '/bitrix/modules/main/include/prolog_before.php');
@@ -58,7 +58,7 @@ if ($basketRes) {
             $basketProduct = [];
 
             if ($productsId['IS_OFFER']) {
-                $element = ElementHutCatalogOffersTable::getList([
+                $element = ElementHutMainOffersCatalogTable::getList([
                     'select' => [
                         'ID',
                         'NAME',
@@ -139,7 +139,7 @@ if ($basketRes) {
 
                     if ($productsId['MAIN_PRODUCT_ID']) {
                         if (!$basketProduct['PICTURE']) {
-                            $mainProduct = ElementHutCatalogTable::getList([
+                            $mainProduct = ElementHutMainCatalogTable::getList([
                                 'select' => [
                                     'PREVIEW_PICTURE'
                                 ],
@@ -169,7 +169,7 @@ if ($basketRes) {
                     $basketProduct['SORT'] = $key;
                 }
             } else {
-                $element = ElementHutCatalogTable::getList([
+                $element = ElementHutMainCatalogTable::getList([
                     'select' => [
                         'ID',
                         'NAME',
