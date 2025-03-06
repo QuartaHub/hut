@@ -50,6 +50,13 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
+		"Оптовикам", 
+		"/optovikam/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
 		"Положение о конфиденциальности", 
 		"/privacy/", 
 		Array(), 
