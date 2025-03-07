@@ -103,7 +103,7 @@ $APPLICATION->SetPageProperty("need_slider", 'Y');
 		"CACHE_TYPE" => "A",
 		"COMPATIBLE_MODE" => "N",
 		"CONVERT_CURRENCY" => "N",
-		"CUSTOM_FILTER" => "{\"CLASS_ID\":\"CondGroup\",\"DATA\":{\"All\":\"AND\",\"True\":\"True\"},\"CHILDREN\":[{\"CLASS_ID\":\"CondIBProp:88:1397\",\"DATA\":{\"logic\":\"Equal\",\"value\":14217}}]}",
+        "CUSTOM_FILTER" => "{\"CLASS_ID\":\"CondGroup\",\"DATA\":{\"All\":\"AND\",\"True\":\"True\"},\"CHILDREN\":[{\"CLASS_ID\":\"CondIBProp:110:1524\",\"DATA\":{\"logic\":\"Equal\",\"value\":14607}}]}",
 		"DETAIL_URL" => "",
 		"DISABLE_INIT_JS_IN_COMPONENT" => "N",
 		"DISPLAY_BOTTOM_PAGER" => "Y",
@@ -117,7 +117,7 @@ $APPLICATION->SetPageProperty("need_slider", 'Y');
 		"FILTER_NAME" => "arrFilter",
 		"HIDE_NOT_AVAILABLE" => "N",
 		"HIDE_NOT_AVAILABLE_OFFERS" => "N",
-		"IBLOCK_ID" => IblockHelper::getIdByCode("hutcatalog"),
+		"IBLOCK_ID" => IblockHelper::getIdByCode("hutMainCatalog"),
 		"IBLOCK_TYPE" => "hut",
 		"INCLUDE_SUBSECTIONS" => "Y",
 		"LABEL_PROP" => array(
@@ -249,7 +249,63 @@ $APPLICATION->SetPageProperty("need_slider", 'Y');
 	</div>
 </div>
 
-<? $APPLICATION->IncludeComponent(
+<?php $APPLICATION->IncludeComponent(
+    "bitrix:news.list",
+    "main-page-types",
+    Array(
+        "ACTIVE_DATE_FORMAT" => "d.m.Y",
+        "ADD_SECTIONS_CHAIN" => "N",
+        "AJAX_MODE" => "N",
+        "AJAX_OPTION_ADDITIONAL" => "",
+        "AJAX_OPTION_HISTORY" => "N",
+        "AJAX_OPTION_JUMP" => "N",
+        "AJAX_OPTION_STYLE" => "Y",
+        "CACHE_FILTER" => "N",
+        "CACHE_GROUPS" => "Y",
+        "CACHE_TIME" => "36000000",
+        "CACHE_TYPE" => "A",
+        "CHECK_DATES" => "Y",
+        "DETAIL_URL" => "",
+        "DISPLAY_BOTTOM_PAGER" => "N",
+        "DISPLAY_TOP_PAGER" => "N",
+        "FIELD_CODE" => array("NAME", "DETAIL_PICTURE", ""),
+        "FILTER_NAME" => "",
+        "HIDE_LINK_WHEN_NO_DETAIL" => "N",
+        "IBLOCK_ID" => IblockHelper::getIdByCode("hutdoing"),
+        "IBLOCK_TYPE" => "hut",
+        "INCLUDE_IBLOCK_INTO_CHAIN" => "N",
+        "INCLUDE_SUBSECTIONS" => "N",
+        "MESSAGE_404" => "",
+        "NEWS_COUNT" => "3",
+        "PAGER_BASE_LINK_ENABLE" => "N",
+        "PAGER_DESC_NUMBERING" => "N",
+        "PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+        "PAGER_SHOW_ALL" => "N",
+        "PAGER_SHOW_ALWAYS" => "N",
+        "PAGER_TEMPLATE" => ".default",
+        "PAGER_TITLE" => "Новости",
+        "PARENT_SECTION" => "",
+        "PARENT_SECTION_CODE" => "",
+        "PREVIEW_TRUNCATE_LEN" => "",
+        "PROPERTY_CODE" => array("LINK", ""),
+        "SET_BROWSER_TITLE" => "N",
+        "SET_LAST_MODIFIED" => "N",
+        "SET_META_DESCRIPTION" => "N",
+        "SET_META_KEYWORDS" => "N",
+        "SET_STATUS_404" => "N",
+        "SET_TITLE" => "N",
+        "SHOW_404" => "N",
+        "SORT_BY1" => "SORT",
+        "SORT_BY2" => "SORT",
+        "SORT_ORDER1" => "ASC",
+        "SORT_ORDER2" => "ASC",
+        "STRICT_SECTION_CHECK" => "N"
+    )
+);?>
+
+<?php
+// компонент нужен, временно после переезда на боевой каталог закомменчено
+/* $APPLICATION->IncludeComponent(
 	"bitrix:catalog.section.list",
 	"main-sections",
 	array(
@@ -263,7 +319,7 @@ $APPLICATION->SetPageProperty("need_slider", 'Y');
 		"COUNT_ELEMENTS_FILTER" => "CNT_ACTIVE",
 		"FILTER_NAME" => "mainSectionsFilter",
 		"HIDE_SECTIONS_WITH_ZERO_COUNT_ELEMENTS" => "N",
-		"IBLOCK_ID" => IblockHelper::getIdByCode("hutcatalog"),
+		"IBLOCK_ID" => IblockHelper::getIdByCode("hutMainCatalog"),
 		"IBLOCK_TYPE" => "hut",
 		"SECTION_CODE" => "",
 		"SECTION_FIELDS" => array(
@@ -286,7 +342,9 @@ $APPLICATION->SetPageProperty("need_slider", 'Y');
 		"COMPONENT_TEMPLATE" => "main-sections"
 	),
 	false
-); ?>
+); */ ?>
+
+<?php ?>
 
 <div class="container">
 	<? $APPLICATION->IncludeComponent(

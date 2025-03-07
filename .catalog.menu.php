@@ -8,9 +8,8 @@ $aMenuLinksExt = array();
 
 if (CModule::IncludeModule('iblock')) {
     $arFilter = array(
-        "TYPE" => "hut",
         "SITE_ID" => SITE_ID,
-        "ID" => IblockHelper::getIdByCode("hutcatalog"),
+        "ID" => IblockHelper::getIdByCode("hutMainCatalog"),
     );
 
     $dbIBlock = CIBlock::GetList(array('SORT' => 'ASC', 'ID' => 'ASC'), $arFilter);
