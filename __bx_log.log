@@ -1,0 +1,2560 @@
+IBlockElementUpdateHandler:
+array (
+  'ACTIVE' => 'Y',
+  'MODIFIED_BY' => '1',
+  'IBLOCK_ID' => 108,
+  'ACTIVE_FROM' => '',
+  'ACTIVE_TO' => '',
+  'SORT' => '500',
+  'NAME' => 'КУРТКА МУЖСКАЯ KIVACH, темно-зелёная (XXL)',
+  'CODE' => 'kurtka_muzhskaya_kivach_temno_zelyenaya_xxl',
+  'TAGS' => '',
+  'PREVIEW_PICTURE' => 
+  array (
+    'name' => NULL,
+    'type' => NULL,
+    'tmp_name' => NULL,
+    'error' => 4,
+    'size' => 0,
+  ),
+  'PREVIEW_TEXT' => '',
+  'PREVIEW_TEXT_TYPE' => 'text',
+  'DETAIL_PICTURE' => 
+  array (
+    'name' => NULL,
+    'type' => NULL,
+    'tmp_name' => NULL,
+    'error' => 4,
+    'size' => 0,
+  ),
+  'DETAIL_TEXT' => '',
+  'DETAIL_TEXT_TYPE' => 'text',
+  'TMP_ID' => 0,
+  'PROPERTY_VALUES' => 
+  array (
+    1505 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1506 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '15960',
+      ),
+    ),
+    1495 => 
+    array (
+      226400685 => 
+      array (
+        'VALUE' => '59857',
+      ),
+    ),
+    1496 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1497 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1498 => 
+    array (
+      226400686 => 
+      array (
+        'VALUE' => 'XXL',
+        'DESCRIPTION' => 'Размер',
+      ),
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1499 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1500 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1501 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1504 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1538 => 
+    array (
+      210571953 => 
+      array (
+        'VALUE' => 'lM75U14i',
+      ),
+    ),
+    1502 => 
+    array (
+    ),
+    1503 => 
+    array (
+    ),
+  ),
+  'IBLOCK_SECTION' => 
+  array (
+  ),
+  'XML_ID' => 'b1f84474-9116-11ef-812c-ac1f6b3e2f21#554a16c6-ee16-11ec-80f7-ac1f6b3e2f21',
+  'IPROPERTY_TEMPLATES' => 
+  array (
+    'ELEMENT_META_TITLE' => '',
+    'ELEMENT_META_KEYWORDS' => '',
+    'ELEMENT_META_DESCRIPTION' => '',
+    'ELEMENT_PAGE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_ALT' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_NAME' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_ALT' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_NAME' => '',
+  ),
+  'ID' => 59914,
+)
+
+IBlockElementUpdateHandler:
+array (
+  'ACTIVE' => 'Y',
+  'MODIFIED_BY' => '1',
+  'IBLOCK_ID' => 108,
+  'ACTIVE_FROM' => '',
+  'ACTIVE_TO' => '',
+  'SORT' => '500',
+  'NAME' => 'КУРТКА МУЖСКАЯ KIVACH, темно-зелёная (XXL)',
+  'CODE' => 'kurtka_muzhskaya_kivach_temno_zelyenaya_xxl',
+  'TAGS' => '',
+  'PREVIEW_PICTURE' => 
+  array (
+    'name' => NULL,
+    'type' => NULL,
+    'tmp_name' => NULL,
+    'error' => 4,
+    'size' => 0,
+  ),
+  'PREVIEW_TEXT' => '',
+  'PREVIEW_TEXT_TYPE' => 'text',
+  'DETAIL_PICTURE' => 
+  array (
+    'name' => NULL,
+    'type' => NULL,
+    'tmp_name' => NULL,
+    'error' => 4,
+    'size' => 0,
+  ),
+  'DETAIL_TEXT' => '',
+  'DETAIL_TEXT_TYPE' => 'text',
+  'TMP_ID' => 0,
+  'PROPERTY_VALUES' => 
+  array (
+    1505 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1506 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '15960',
+      ),
+    ),
+    1495 => 
+    array (
+      226400685 => 
+      array (
+        'VALUE' => '59857',
+      ),
+    ),
+    1496 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1497 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1498 => 
+    array (
+      226400686 => 
+      array (
+        'VALUE' => 'XXL',
+        'DESCRIPTION' => 'Размер',
+      ),
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1499 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1500 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1501 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1504 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1538 => 
+    array (
+      210571953 => 
+      array (
+        'VALUE' => 'lM75U14i',
+      ),
+    ),
+    1502 => 
+    array (
+    ),
+    1503 => 
+    array (
+    ),
+  ),
+  'IBLOCK_SECTION' => 
+  array (
+  ),
+  'XML_ID' => 'b1f84474-9116-11ef-812c-ac1f6b3e2f21#554a16c6-ee16-11ec-80f7-ac1f6b3e2f21',
+  'IPROPERTY_TEMPLATES' => 
+  array (
+    'ELEMENT_META_TITLE' => '',
+    'ELEMENT_META_KEYWORDS' => '',
+    'ELEMENT_META_DESCRIPTION' => '',
+    'ELEMENT_PAGE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_ALT' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_NAME' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_ALT' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_NAME' => '',
+  ),
+  'ID' => 59914,
+)
+
+IBlockElementUpdateHandler:
+array (
+  'ACTIVE' => 'Y',
+  'MODIFIED_BY' => '1',
+  'IBLOCK_ID' => 108,
+  'ACTIVE_FROM' => '',
+  'ACTIVE_TO' => '',
+  'SORT' => '500',
+  'NAME' => 'КУРТКА МУЖСКАЯ KIVACH, темно-зелёная (XXL)',
+  'CODE' => 'kurtka_muzhskaya_kivach_temno_zelyenaya_xxl',
+  'TAGS' => '',
+  'PREVIEW_PICTURE' => 
+  array (
+    'name' => NULL,
+    'type' => NULL,
+    'tmp_name' => NULL,
+    'error' => 4,
+    'size' => 0,
+  ),
+  'PREVIEW_TEXT' => '',
+  'PREVIEW_TEXT_TYPE' => 'text',
+  'DETAIL_PICTURE' => 
+  array (
+    'name' => NULL,
+    'type' => NULL,
+    'tmp_name' => NULL,
+    'error' => 4,
+    'size' => 0,
+  ),
+  'DETAIL_TEXT' => '',
+  'DETAIL_TEXT_TYPE' => 'text',
+  'TMP_ID' => 0,
+  'PROPERTY_VALUES' => 
+  array (
+    1505 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1506 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '15960',
+      ),
+    ),
+    1495 => 
+    array (
+      226400685 => 
+      array (
+        'VALUE' => '59857',
+      ),
+    ),
+    1496 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1497 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1498 => 
+    array (
+      226400686 => 
+      array (
+        'VALUE' => 'XXL',
+        'DESCRIPTION' => 'Размер',
+      ),
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1499 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1500 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1501 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1504 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1538 => 
+    array (
+      210571953 => 
+      array (
+        'VALUE' => 'lM75U14i',
+      ),
+    ),
+    1502 => 
+    array (
+    ),
+    1503 => 
+    array (
+    ),
+  ),
+  'IBLOCK_SECTION' => 
+  array (
+  ),
+  'XML_ID' => 'b1f84474-9116-11ef-812c-ac1f6b3e2f21#554a16c6-ee16-11ec-80f7-ac1f6b3e2f21',
+  'IPROPERTY_TEMPLATES' => 
+  array (
+    'ELEMENT_META_TITLE' => '',
+    'ELEMENT_META_KEYWORDS' => '',
+    'ELEMENT_META_DESCRIPTION' => '',
+    'ELEMENT_PAGE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_ALT' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_NAME' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_ALT' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_NAME' => '',
+  ),
+  'ID' => 59914,
+)
+
+IBlockElementUpdateHandler:
+array (
+  'ACTIVE' => 'Y',
+  'MODIFIED_BY' => '1',
+  'IBLOCK_ID' => 108,
+  'ACTIVE_FROM' => '',
+  'ACTIVE_TO' => '',
+  'SORT' => '500',
+  'NAME' => 'КУРТКА МУЖСКАЯ KIVACH, темно-зелёная (XXL)',
+  'CODE' => 'kurtka_muzhskaya_kivach_temno_zelyenaya_xxl',
+  'TAGS' => '',
+  'PREVIEW_PICTURE' => 
+  array (
+    'name' => NULL,
+    'type' => NULL,
+    'tmp_name' => NULL,
+    'error' => 4,
+    'size' => 0,
+  ),
+  'PREVIEW_TEXT' => '',
+  'PREVIEW_TEXT_TYPE' => 'text',
+  'DETAIL_PICTURE' => 
+  array (
+    'name' => NULL,
+    'type' => NULL,
+    'tmp_name' => NULL,
+    'error' => 4,
+    'size' => 0,
+  ),
+  'DETAIL_TEXT' => '',
+  'DETAIL_TEXT_TYPE' => 'text',
+  'TMP_ID' => 0,
+  'PROPERTY_VALUES' => 
+  array (
+    1505 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1506 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '15960',
+      ),
+    ),
+    1495 => 
+    array (
+      226400685 => 
+      array (
+        'VALUE' => '59857',
+      ),
+    ),
+    1496 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1497 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1498 => 
+    array (
+      226400686 => 
+      array (
+        'VALUE' => 'XXL',
+        'DESCRIPTION' => 'Размер',
+      ),
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1499 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1500 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1501 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1504 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1538 => 
+    array (
+      210571953 => 
+      array (
+        'VALUE' => 'lM75U14i',
+      ),
+    ),
+    1502 => 
+    array (
+    ),
+    1503 => 
+    array (
+    ),
+  ),
+  'IBLOCK_SECTION' => 
+  array (
+  ),
+  'XML_ID' => 'b1f84474-9116-11ef-812c-ac1f6b3e2f21#554a16c6-ee16-11ec-80f7-ac1f6b3e2f21',
+  'IPROPERTY_TEMPLATES' => 
+  array (
+    'ELEMENT_META_TITLE' => '',
+    'ELEMENT_META_KEYWORDS' => '',
+    'ELEMENT_META_DESCRIPTION' => '',
+    'ELEMENT_PAGE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_ALT' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_NAME' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_ALT' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_NAME' => '',
+  ),
+  'ID' => 59914,
+)
+
+IBlockElementUpdateHandler:
+array (
+  'ACTIVE' => 'Y',
+  'MODIFIED_BY' => '1',
+  'ACTIVE_FROM' => '',
+  'ACTIVE_TO' => '',
+  'SORT' => '500',
+  'NAME' => 'КУРТКА МУЖСКАЯ KIVACH, темно-зелёная (XXL)',
+  'CODE' => 'kurtka_muzhskaya_kivach_temno_zelyenaya_xxl',
+  'TAGS' => '',
+  'PREVIEW_TEXT' => '',
+  'PREVIEW_TEXT_TYPE' => 'text',
+  'DETAIL_TEXT' => '',
+  'DETAIL_TEXT_TYPE' => 'text',
+  'TMP_ID' => 0,
+  'PROPERTY_VALUES' => 
+  array (
+    1505 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1506 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '15960',
+      ),
+    ),
+    1495 => 
+    array (
+      226400685 => 
+      array (
+        'VALUE' => '59857',
+      ),
+    ),
+    1496 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1497 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1498 => 
+    array (
+      226400686 => 
+      array (
+        'VALUE' => 'XXL',
+        'DESCRIPTION' => 'Размер',
+      ),
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1499 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1500 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1501 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1504 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1538 => 
+    array (
+      210571953 => 
+      array (
+        'VALUE' => 'lM75U14i',
+      ),
+    ),
+    1502 => 
+    array (
+    ),
+    1503 => 
+    array (
+    ),
+  ),
+  'IBLOCK_SECTION' => 
+  array (
+  ),
+  'XML_ID' => 'b1f84474-9116-11ef-812c-ac1f6b3e2f21#554a16c6-ee16-11ec-80f7-ac1f6b3e2f21',
+  'IPROPERTY_TEMPLATES' => 
+  array (
+    'ELEMENT_META_TITLE' => '',
+    'ELEMENT_META_KEYWORDS' => '',
+    'ELEMENT_META_DESCRIPTION' => '',
+    'ELEMENT_PAGE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_ALT' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_NAME' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_ALT' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_NAME' => '',
+  ),
+  'WF' => 'N',
+  'SEARCHABLE_CONTENT' => 'КУРТКА МУЖСКАЯ KIVACH, ТЕМНО-ЗЕЛЁНАЯ (XXL)
+
+',
+  'ID' => 59914,
+  'IBLOCK_ID' => '108',
+  'RESULT' => true,
+)
+
+IBlockElementUpdateHandler:
+array (
+  'ACTIVE' => 'Y',
+  'MODIFIED_BY' => '1',
+  'IBLOCK_ID' => 108,
+  'ACTIVE_FROM' => '',
+  'ACTIVE_TO' => '',
+  'SORT' => '500',
+  'NAME' => 'КУРТКА МУЖСКАЯ KIVACH, темно-зелёная (XXL)',
+  'CODE' => 'kurtka_muzhskaya_kivach_temno_zelyenaya_xxl',
+  'TAGS' => '',
+  'PREVIEW_PICTURE' => 
+  array (
+    'name' => NULL,
+    'type' => NULL,
+    'tmp_name' => NULL,
+    'error' => 4,
+    'size' => 0,
+  ),
+  'PREVIEW_TEXT' => '',
+  'PREVIEW_TEXT_TYPE' => 'text',
+  'DETAIL_PICTURE' => 
+  array (
+    'name' => NULL,
+    'type' => NULL,
+    'tmp_name' => NULL,
+    'error' => 4,
+    'size' => 0,
+  ),
+  'DETAIL_TEXT' => '',
+  'DETAIL_TEXT_TYPE' => 'text',
+  'TMP_ID' => 0,
+  'PROPERTY_VALUES' => 
+  array (
+    1505 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1506 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '15960',
+      ),
+    ),
+    1495 => 
+    array (
+      226400685 => 
+      array (
+        'VALUE' => '59857',
+      ),
+    ),
+    1496 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1497 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1498 => 
+    array (
+      226400686 => 
+      array (
+        'VALUE' => 'XXL',
+        'DESCRIPTION' => 'Размер',
+      ),
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1499 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1500 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1501 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1504 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1538 => 
+    array (
+      210571953 => 
+      array (
+        'VALUE' => 'lM75U14i',
+      ),
+    ),
+    1502 => 
+    array (
+    ),
+    1503 => 
+    array (
+    ),
+  ),
+  'IBLOCK_SECTION' => 
+  array (
+  ),
+  'XML_ID' => 'b1f84474-9116-11ef-812c-ac1f6b3e2f21#554a16c6-ee16-11ec-80f7-ac1f6b3e2f21',
+  'IPROPERTY_TEMPLATES' => 
+  array (
+    'ELEMENT_META_TITLE' => '',
+    'ELEMENT_META_KEYWORDS' => '',
+    'ELEMENT_META_DESCRIPTION' => '',
+    'ELEMENT_PAGE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_ALT' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_NAME' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_ALT' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_NAME' => '',
+  ),
+  'ID' => 59914,
+)
+
+IBlockElementUpdateHandler:
+array (
+  'ACTIVE' => 'Y',
+  'MODIFIED_BY' => '1',
+  'ACTIVE_FROM' => '',
+  'ACTIVE_TO' => '',
+  'SORT' => '500',
+  'NAME' => 'КУРТКА МУЖСКАЯ KIVACH, темно-зелёная (XXL)',
+  'CODE' => 'kurtka_muzhskaya_kivach_temno_zelyenaya_xxl',
+  'TAGS' => '',
+  'PREVIEW_TEXT' => '',
+  'PREVIEW_TEXT_TYPE' => 'text',
+  'DETAIL_TEXT' => '',
+  'DETAIL_TEXT_TYPE' => 'text',
+  'TMP_ID' => 0,
+  'PROPERTY_VALUES' => 
+  array (
+    1505 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1506 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '15960',
+      ),
+    ),
+    1495 => 
+    array (
+      226400685 => 
+      array (
+        'VALUE' => '59857',
+      ),
+    ),
+    1496 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1497 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1498 => 
+    array (
+      226400686 => 
+      array (
+        'VALUE' => 'XXL',
+        'DESCRIPTION' => 'Размер',
+      ),
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1499 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1500 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1501 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1504 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1538 => 
+    array (
+      210571953 => 
+      array (
+        'VALUE' => 'lM75U14i',
+      ),
+    ),
+    1502 => 
+    array (
+    ),
+    1503 => 
+    array (
+    ),
+  ),
+  'IBLOCK_SECTION' => 
+  array (
+  ),
+  'XML_ID' => 'b1f84474-9116-11ef-812c-ac1f6b3e2f21#554a16c6-ee16-11ec-80f7-ac1f6b3e2f21',
+  'IPROPERTY_TEMPLATES' => 
+  array (
+    'ELEMENT_META_TITLE' => '',
+    'ELEMENT_META_KEYWORDS' => '',
+    'ELEMENT_META_DESCRIPTION' => '',
+    'ELEMENT_PAGE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_ALT' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_NAME' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_ALT' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_NAME' => '',
+  ),
+  'WF' => 'N',
+  'SEARCHABLE_CONTENT' => 'КУРТКА МУЖСКАЯ KIVACH, ТЕМНО-ЗЕЛЁНАЯ (XXL)
+
+',
+  'ID' => 59914,
+  'IBLOCK_ID' => '108',
+  'RESULT' => true,
+)
+
+IBlockElementUpdateHandler:
+array (
+  'ACTIVE' => 'Y',
+  'MODIFIED_BY' => '1',
+  'IBLOCK_ID' => 108,
+  'ACTIVE_FROM' => '',
+  'ACTIVE_TO' => '',
+  'SORT' => '500',
+  'NAME' => 'КУРТКА МУЖСКАЯ KIVACH, темно-зелёная (XXL)',
+  'CODE' => 'kurtka_muzhskaya_kivach_temno_zelyenaya_xxl',
+  'TAGS' => '',
+  'PREVIEW_PICTURE' => 
+  array (
+    'name' => NULL,
+    'type' => NULL,
+    'tmp_name' => NULL,
+    'error' => 4,
+    'size' => 0,
+  ),
+  'PREVIEW_TEXT' => '',
+  'PREVIEW_TEXT_TYPE' => 'text',
+  'DETAIL_PICTURE' => 
+  array (
+    'name' => NULL,
+    'type' => NULL,
+    'tmp_name' => NULL,
+    'error' => 4,
+    'size' => 0,
+  ),
+  'DETAIL_TEXT' => '',
+  'DETAIL_TEXT_TYPE' => 'text',
+  'TMP_ID' => 0,
+  'PROPERTY_VALUES' => 
+  array (
+    1505 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1506 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '15960',
+      ),
+    ),
+    1495 => 
+    array (
+      226400685 => 
+      array (
+        'VALUE' => '59857',
+      ),
+    ),
+    1496 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1497 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1498 => 
+    array (
+      226400686 => 
+      array (
+        'VALUE' => 'XXL',
+        'DESCRIPTION' => 'Размер',
+      ),
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1499 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1500 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1501 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1504 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1538 => 
+    array (
+      210571953 => 
+      array (
+        'VALUE' => 'lM75U14i',
+      ),
+    ),
+    1502 => 
+    array (
+    ),
+    1503 => 
+    array (
+    ),
+  ),
+  'IBLOCK_SECTION' => 
+  array (
+  ),
+  'XML_ID' => 'b1f84474-9116-11ef-812c-ac1f6b3e2f21#554a16c6-ee16-11ec-80f7-ac1f6b3e2f21',
+  'IPROPERTY_TEMPLATES' => 
+  array (
+    'ELEMENT_META_TITLE' => '',
+    'ELEMENT_META_KEYWORDS' => '',
+    'ELEMENT_META_DESCRIPTION' => '',
+    'ELEMENT_PAGE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_ALT' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_NAME' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_ALT' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_NAME' => '',
+  ),
+  'ID' => 59914,
+)
+
+IBlockElementUpdateHandler:
+array (
+  'ACTIVE' => 'Y',
+  'MODIFIED_BY' => '1',
+  'ACTIVE_FROM' => '',
+  'ACTIVE_TO' => '',
+  'SORT' => '500',
+  'NAME' => 'КУРТКА МУЖСКАЯ KIVACH, темно-зелёная (XXL)',
+  'CODE' => 'kurtka_muzhskaya_kivach_temno_zelyenaya_xxl',
+  'TAGS' => '',
+  'PREVIEW_TEXT' => '',
+  'PREVIEW_TEXT_TYPE' => 'text',
+  'DETAIL_TEXT' => '',
+  'DETAIL_TEXT_TYPE' => 'text',
+  'TMP_ID' => 0,
+  'PROPERTY_VALUES' => 
+  array (
+    1505 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1506 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '15960',
+      ),
+    ),
+    1495 => 
+    array (
+      226400685 => 
+      array (
+        'VALUE' => '59857',
+      ),
+    ),
+    1496 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1497 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1498 => 
+    array (
+      226400686 => 
+      array (
+        'VALUE' => 'XXL',
+        'DESCRIPTION' => 'Размер',
+      ),
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1499 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1500 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1501 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1504 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1538 => 
+    array (
+      210571953 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1502 => 
+    array (
+    ),
+    1503 => 
+    array (
+    ),
+  ),
+  'IBLOCK_SECTION' => 
+  array (
+  ),
+  'XML_ID' => 'b1f84474-9116-11ef-812c-ac1f6b3e2f21#554a16c6-ee16-11ec-80f7-ac1f6b3e2f21',
+  'IPROPERTY_TEMPLATES' => 
+  array (
+    'ELEMENT_META_TITLE' => '',
+    'ELEMENT_META_KEYWORDS' => '',
+    'ELEMENT_META_DESCRIPTION' => '',
+    'ELEMENT_PAGE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_ALT' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_NAME' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_ALT' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_NAME' => '',
+  ),
+  'WF' => 'N',
+  'SEARCHABLE_CONTENT' => 'КУРТКА МУЖСКАЯ KIVACH, ТЕМНО-ЗЕЛЁНАЯ (XXL)
+
+',
+  'ID' => 59914,
+  'IBLOCK_ID' => '108',
+  'RESULT' => true,
+)
+
+IBlockElementUpdateHandler:
+array (
+  'ACTIVE' => 'Y',
+  'MODIFIED_BY' => '1',
+  'IBLOCK_ID' => 108,
+  'ACTIVE_FROM' => '',
+  'ACTIVE_TO' => '',
+  'SORT' => '500',
+  'NAME' => 'КУРТКА МУЖСКАЯ KIVACH, темно-зелёная (XXL)',
+  'CODE' => 'kurtka_muzhskaya_kivach_temno_zelyenaya_xxl',
+  'TAGS' => '',
+  'PREVIEW_PICTURE' => 
+  array (
+    'name' => NULL,
+    'type' => NULL,
+    'tmp_name' => NULL,
+    'error' => 4,
+    'size' => 0,
+  ),
+  'PREVIEW_TEXT' => '',
+  'PREVIEW_TEXT_TYPE' => 'text',
+  'DETAIL_PICTURE' => 
+  array (
+    'name' => NULL,
+    'type' => NULL,
+    'tmp_name' => NULL,
+    'error' => 4,
+    'size' => 0,
+  ),
+  'DETAIL_TEXT' => '',
+  'DETAIL_TEXT_TYPE' => 'text',
+  'TMP_ID' => 0,
+  'PROPERTY_VALUES' => 
+  array (
+    1505 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1506 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '15960',
+      ),
+    ),
+    1495 => 
+    array (
+      226400685 => 
+      array (
+        'VALUE' => '59857',
+      ),
+    ),
+    1496 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1497 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1498 => 
+    array (
+      226400686 => 
+      array (
+        'VALUE' => 'XXL',
+        'DESCRIPTION' => 'Размер',
+      ),
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1499 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1500 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1501 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1504 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1538 => 
+    array (
+      210571953 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1502 => 
+    array (
+    ),
+    1503 => 
+    array (
+    ),
+  ),
+  'IBLOCK_SECTION' => 
+  array (
+  ),
+  'XML_ID' => 'b1f84474-9116-11ef-812c-ac1f6b3e2f21#554a16c6-ee16-11ec-80f7-ac1f6b3e2f21',
+  'IPROPERTY_TEMPLATES' => 
+  array (
+    'ELEMENT_META_TITLE' => '',
+    'ELEMENT_META_KEYWORDS' => '',
+    'ELEMENT_META_DESCRIPTION' => '',
+    'ELEMENT_PAGE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_ALT' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_NAME' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_ALT' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_NAME' => '',
+  ),
+  'ID' => 59914,
+)
+
+arFields:
+array (
+  'ACTIVE' => 'Y',
+  'MODIFIED_BY' => '1',
+  'IBLOCK_ID' => 108,
+  'ACTIVE_FROM' => '',
+  'ACTIVE_TO' => '',
+  'SORT' => '500',
+  'NAME' => 'КУРТКА МУЖСКАЯ KIVACH, темно-зелёная (L)',
+  'CODE' => 'kurtka_muzhskaya_kivach_temno_zelyenaya_l',
+  'TAGS' => '',
+  'PREVIEW_PICTURE' => 
+  array (
+    'name' => NULL,
+    'type' => NULL,
+    'tmp_name' => NULL,
+    'error' => 4,
+    'size' => 0,
+  ),
+  'PREVIEW_TEXT' => '',
+  'PREVIEW_TEXT_TYPE' => 'text',
+  'DETAIL_PICTURE' => 
+  array (
+    'name' => NULL,
+    'type' => NULL,
+    'tmp_name' => NULL,
+    'error' => 4,
+    'size' => 0,
+  ),
+  'DETAIL_TEXT' => '',
+  'DETAIL_TEXT_TYPE' => 'text',
+  'TMP_ID' => 0,
+  'PROPERTY_VALUES' => 
+  array (
+    1505 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1506 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '15945',
+      ),
+    ),
+    1495 => 
+    array (
+      227242226 => 
+      array (
+        'VALUE' => '59857',
+      ),
+    ),
+    1496 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1497 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1498 => 
+    array (
+      227242227 => 
+      array (
+        'VALUE' => 'L',
+        'DESCRIPTION' => 'Размер',
+      ),
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1499 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1500 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1501 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1504 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1538 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1502 => 
+    array (
+    ),
+    1503 => 
+    array (
+    ),
+  ),
+  'IBLOCK_SECTION' => 
+  array (
+  ),
+  'XML_ID' => 'b1f84474-9116-11ef-812c-ac1f6b3e2f21#4deda3ee-508b-11ee-8119-ac1f6b3e2f21',
+  'IPROPERTY_TEMPLATES' => 
+  array (
+    'ELEMENT_META_TITLE' => '',
+    'ELEMENT_META_KEYWORDS' => '',
+    'ELEMENT_META_DESCRIPTION' => '',
+    'ELEMENT_PAGE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_ALT' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_NAME' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_ALT' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_NAME' => '',
+  ),
+  'ID' => 59925,
+)
+
+IBlockElementUpdateHandler:
+'15945'
+
+arFields:
+array (
+  'ACTIVE' => 'Y',
+  'MODIFIED_BY' => '1',
+  'ACTIVE_FROM' => '',
+  'ACTIVE_TO' => '',
+  'SORT' => '500',
+  'NAME' => 'КУРТКА МУЖСКАЯ KIVACH, темно-зелёная (XL)',
+  'CODE' => 'kurtka_muzhskaya_kivach_temno_zelyenaya_xl',
+  'TAGS' => '',
+  'PREVIEW_TEXT' => '',
+  'PREVIEW_TEXT_TYPE' => 'text',
+  'DETAIL_TEXT' => '',
+  'DETAIL_TEXT_TYPE' => 'text',
+  'TMP_ID' => 0,
+  'PROPERTY_VALUES' => 
+  array (
+    1505 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1506 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '15954',
+      ),
+    ),
+    1495 => 
+    array (
+      227242256 => 
+      array (
+        'VALUE' => '59857',
+      ),
+    ),
+    1496 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1497 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1498 => 
+    array (
+      227242257 => 
+      array (
+        'VALUE' => 'XL',
+        'DESCRIPTION' => 'Размер',
+      ),
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1499 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1500 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1501 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1504 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1538 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1502 => 
+    array (
+    ),
+    1503 => 
+    array (
+    ),
+  ),
+  'IBLOCK_SECTION' => 
+  array (
+  ),
+  'XML_ID' => 'b1f84474-9116-11ef-812c-ac1f6b3e2f21#7a4552df-509d-11ee-8119-ac1f6b3e2f21',
+  'IPROPERTY_TEMPLATES' => 
+  array (
+    'ELEMENT_META_TITLE' => '',
+    'ELEMENT_META_KEYWORDS' => '',
+    'ELEMENT_META_DESCRIPTION' => '',
+    'ELEMENT_PAGE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_ALT' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_NAME' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_ALT' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_NAME' => '',
+  ),
+  'WF' => 'N',
+  'SEARCHABLE_CONTENT' => 'КУРТКА МУЖСКАЯ KIVACH, ТЕМНО-ЗЕЛЁНАЯ (XL)
+
+',
+  'ID' => 59930,
+  'IBLOCK_ID' => '108',
+  'RESULT' => true,
+)
+
+IBlockElementUpdateHandler:
+'15954'
+
+arFields:
+array (
+  'ACTIVE' => 'Y',
+  'MODIFIED_BY' => '1',
+  'IBLOCK_ID' => 108,
+  'ACTIVE_FROM' => '',
+  'ACTIVE_TO' => '',
+  'SORT' => '500',
+  'NAME' => 'КУРТКА МУЖСКАЯ KIVACH, темно-зелёная (XL)',
+  'CODE' => 'kurtka_muzhskaya_kivach_temno_zelyenaya_xl',
+  'TAGS' => '',
+  'PREVIEW_PICTURE' => 
+  array (
+    'name' => NULL,
+    'type' => NULL,
+    'tmp_name' => NULL,
+    'error' => 4,
+    'size' => 0,
+  ),
+  'PREVIEW_TEXT' => '',
+  'PREVIEW_TEXT_TYPE' => 'text',
+  'DETAIL_PICTURE' => 
+  array (
+    'name' => NULL,
+    'type' => NULL,
+    'tmp_name' => NULL,
+    'error' => 4,
+    'size' => 0,
+  ),
+  'DETAIL_TEXT' => '',
+  'DETAIL_TEXT_TYPE' => 'text',
+  'TMP_ID' => 0,
+  'PROPERTY_VALUES' => 
+  array (
+    1505 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1506 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '15954',
+      ),
+    ),
+    1495 => 
+    array (
+      227242256 => 
+      array (
+        'VALUE' => '59857',
+      ),
+    ),
+    1496 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1497 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1498 => 
+    array (
+      227242257 => 
+      array (
+        'VALUE' => 'XL',
+        'DESCRIPTION' => 'Размер',
+      ),
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1499 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1500 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1501 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1504 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1538 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1502 => 
+    array (
+    ),
+    1503 => 
+    array (
+    ),
+  ),
+  'IBLOCK_SECTION' => 
+  array (
+  ),
+  'XML_ID' => 'b1f84474-9116-11ef-812c-ac1f6b3e2f21#7a4552df-509d-11ee-8119-ac1f6b3e2f21',
+  'IPROPERTY_TEMPLATES' => 
+  array (
+    'ELEMENT_META_TITLE' => '',
+    'ELEMENT_META_KEYWORDS' => '',
+    'ELEMENT_META_DESCRIPTION' => '',
+    'ELEMENT_PAGE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_ALT' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_NAME' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_ALT' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_NAME' => '',
+  ),
+  'ID' => 59930,
+)
+
+IBlockElementUpdateHandler:
+'15954'
+
+arFields:
+array (
+  'ACTIVE' => 'Y',
+  'MODIFIED_BY' => '1',
+  'ACTIVE_FROM' => '',
+  'ACTIVE_TO' => '',
+  'SORT' => '500',
+  'NAME' => 'КУРТКА МУЖСКАЯ KIVACH, темно-зелёная (M)',
+  'CODE' => 'kurtka_muzhskaya_kivach_temno_zelyenaya_m',
+  'TAGS' => '',
+  'PREVIEW_TEXT' => '',
+  'PREVIEW_TEXT_TYPE' => 'text',
+  'DETAIL_TEXT' => '',
+  'DETAIL_TEXT_TYPE' => 'text',
+  'TMP_ID' => 0,
+  'PROPERTY_VALUES' => 
+  array (
+    1505 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1506 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '16776',
+      ),
+    ),
+    1495 => 
+    array (
+      227242154 => 
+      array (
+        'VALUE' => '59857',
+      ),
+    ),
+    1496 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1497 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1498 => 
+    array (
+      227242155 => 
+      array (
+        'VALUE' => 'M',
+        'DESCRIPTION' => 'Размер',
+      ),
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1499 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1500 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1501 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1504 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1538 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1502 => 
+    array (
+    ),
+    1503 => 
+    array (
+    ),
+  ),
+  'IBLOCK_SECTION' => 
+  array (
+  ),
+  'XML_ID' => 'b1f84474-9116-11ef-812c-ac1f6b3e2f21#ce77f414-8b28-11ec-80e8-ac1f6b3e2f21',
+  'IPROPERTY_TEMPLATES' => 
+  array (
+    'ELEMENT_META_TITLE' => '',
+    'ELEMENT_META_KEYWORDS' => '',
+    'ELEMENT_META_DESCRIPTION' => '',
+    'ELEMENT_PAGE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_ALT' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_NAME' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_ALT' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_NAME' => '',
+  ),
+  'WF' => 'N',
+  'SEARCHABLE_CONTENT' => 'КУРТКА МУЖСКАЯ KIVACH, ТЕМНО-ЗЕЛЁНАЯ (M)
+
+',
+  'ID' => 59913,
+  'IBLOCK_ID' => '108',
+  'RESULT' => true,
+)
+
+IBlockElementUpdateHandler:
+'16776'
+
+arFields:
+array (
+  'ACTIVE' => 'Y',
+  'MODIFIED_BY' => '1',
+  'IBLOCK_ID' => 108,
+  'ACTIVE_FROM' => '',
+  'ACTIVE_TO' => '',
+  'SORT' => '500',
+  'NAME' => 'КУРТКА МУЖСКАЯ KIVACH, темно-зелёная (M)',
+  'CODE' => 'kurtka_muzhskaya_kivach_temno_zelyenaya_m',
+  'TAGS' => '',
+  'PREVIEW_PICTURE' => 
+  array (
+    'name' => NULL,
+    'type' => NULL,
+    'tmp_name' => NULL,
+    'error' => 4,
+    'size' => 0,
+  ),
+  'PREVIEW_TEXT' => '',
+  'PREVIEW_TEXT_TYPE' => 'text',
+  'DETAIL_PICTURE' => 
+  array (
+    'name' => NULL,
+    'type' => NULL,
+    'tmp_name' => NULL,
+    'error' => 4,
+    'size' => 0,
+  ),
+  'DETAIL_TEXT' => '',
+  'DETAIL_TEXT_TYPE' => 'text',
+  'TMP_ID' => 0,
+  'PROPERTY_VALUES' => 
+  array (
+    1505 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1506 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '16776',
+      ),
+    ),
+    1495 => 
+    array (
+      227242154 => 
+      array (
+        'VALUE' => '59857',
+      ),
+    ),
+    1496 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1497 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1498 => 
+    array (
+      227242155 => 
+      array (
+        'VALUE' => 'M',
+        'DESCRIPTION' => 'Размер',
+      ),
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1499 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1500 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1501 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1504 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1538 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1502 => 
+    array (
+    ),
+    1503 => 
+    array (
+    ),
+  ),
+  'IBLOCK_SECTION' => 
+  array (
+  ),
+  'XML_ID' => 'b1f84474-9116-11ef-812c-ac1f6b3e2f21#ce77f414-8b28-11ec-80e8-ac1f6b3e2f21',
+  'IPROPERTY_TEMPLATES' => 
+  array (
+    'ELEMENT_META_TITLE' => '',
+    'ELEMENT_META_KEYWORDS' => '',
+    'ELEMENT_META_DESCRIPTION' => '',
+    'ELEMENT_PAGE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_ALT' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_NAME' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_ALT' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_NAME' => '',
+  ),
+  'ID' => 59913,
+)
+
+IBlockElementUpdateHandler:
+'16776'
+
+arFields:
+array (
+  'ACTIVE' => 'Y',
+  'MODIFIED_BY' => '1',
+  'ACTIVE_FROM' => '',
+  'ACTIVE_TO' => '',
+  'SORT' => '500',
+  'NAME' => 'КУРТКА МУЖСКАЯ KIVACH, хаки (XXL)',
+  'CODE' => 'kurtka_muzhskaya_kivach_khaki_xxl',
+  'TAGS' => '',
+  'PREVIEW_TEXT' => '',
+  'PREVIEW_TEXT_TYPE' => 'text',
+  'DETAIL_TEXT' => '',
+  'DETAIL_TEXT_TYPE' => 'text',
+  'TMP_ID' => 0,
+  'PROPERTY_VALUES' => 
+  array (
+    1505 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1506 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '15960',
+      ),
+    ),
+    1495 => 
+    array (
+      227242366 => 
+      array (
+        'VALUE' => '59858',
+      ),
+    ),
+    1496 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1497 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1498 => 
+    array (
+      227242367 => 
+      array (
+        'VALUE' => 'XXL',
+        'DESCRIPTION' => 'Размер',
+      ),
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1499 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1500 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1501 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1504 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1538 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1502 => 
+    array (
+    ),
+    1503 => 
+    array (
+    ),
+  ),
+  'IBLOCK_SECTION' => 
+  array (
+  ),
+  'XML_ID' => '81b4d667-9117-11ef-812c-ac1f6b3e2f21#554a16c6-ee16-11ec-80f7-ac1f6b3e2f21',
+  'IPROPERTY_TEMPLATES' => 
+  array (
+    'ELEMENT_META_TITLE' => '',
+    'ELEMENT_META_KEYWORDS' => '',
+    'ELEMENT_META_DESCRIPTION' => '',
+    'ELEMENT_PAGE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_ALT' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_NAME' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_ALT' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_NAME' => '',
+  ),
+  'WF' => 'N',
+  'SEARCHABLE_CONTENT' => 'КУРТКА МУЖСКАЯ KIVACH, ХАКИ (XXL)
+
+',
+  'ID' => 59955,
+  'IBLOCK_ID' => '108',
+  'RESULT' => true,
+)
+
+IBlockElementUpdateHandler:
+'15960'
+
+arFields:
+array (
+  'ACTIVE' => 'Y',
+  'MODIFIED_BY' => '1',
+  'IBLOCK_ID' => 108,
+  'ACTIVE_FROM' => '',
+  'ACTIVE_TO' => '',
+  'SORT' => '500',
+  'NAME' => 'КУРТКА МУЖСКАЯ KIVACH, хаки (XXL)',
+  'CODE' => 'kurtka_muzhskaya_kivach_khaki_xxl',
+  'TAGS' => '',
+  'PREVIEW_PICTURE' => 
+  array (
+    'name' => NULL,
+    'type' => NULL,
+    'tmp_name' => NULL,
+    'error' => 4,
+    'size' => 0,
+  ),
+  'PREVIEW_TEXT' => '',
+  'PREVIEW_TEXT_TYPE' => 'text',
+  'DETAIL_PICTURE' => 
+  array (
+    'name' => NULL,
+    'type' => NULL,
+    'tmp_name' => NULL,
+    'error' => 4,
+    'size' => 0,
+  ),
+  'DETAIL_TEXT' => '',
+  'DETAIL_TEXT_TYPE' => 'text',
+  'TMP_ID' => 0,
+  'PROPERTY_VALUES' => 
+  array (
+    1505 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1506 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '15960',
+      ),
+    ),
+    1495 => 
+    array (
+      227242366 => 
+      array (
+        'VALUE' => '59858',
+      ),
+    ),
+    1496 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1497 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1498 => 
+    array (
+      227242367 => 
+      array (
+        'VALUE' => 'XXL',
+        'DESCRIPTION' => 'Размер',
+      ),
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1499 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1500 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1501 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1504 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1538 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1502 => 
+    array (
+    ),
+    1503 => 
+    array (
+    ),
+  ),
+  'IBLOCK_SECTION' => 
+  array (
+  ),
+  'XML_ID' => '81b4d667-9117-11ef-812c-ac1f6b3e2f21#554a16c6-ee16-11ec-80f7-ac1f6b3e2f21',
+  'IPROPERTY_TEMPLATES' => 
+  array (
+    'ELEMENT_META_TITLE' => '',
+    'ELEMENT_META_KEYWORDS' => '',
+    'ELEMENT_META_DESCRIPTION' => '',
+    'ELEMENT_PAGE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_ALT' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_NAME' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_ALT' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_NAME' => '',
+  ),
+  'ID' => 59955,
+)
+
+IBlockElementUpdateHandler:
+'15960'
+
+arFields:
+array (
+  'NAME' => 'БРЮКИ МУЖСКИЕ KIVACH, камуфляж Trailblazer/чёрный (XXL)',
+  'EXTERNAL_ID' => 'd104e84d-9118-11ef-812c-ac1f6b3e2f21#554a16c6-ee16-11ec-80f7-ac1f6b3e2f21',
+  'PROPERTY_VALUES' => 
+  array (
+    1506 => '15960',
+    1497 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1538 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1505 => 
+    array (
+      '' => 
+      array (
+        'VALUE' => NULL,
+        'DESCRIPTION' => NULL,
+      ),
+    ),
+    1495 => 
+    array (
+      227243190 => 
+      array (
+        'VALUE' => '59862',
+        'DESCRIPTION' => NULL,
+      ),
+    ),
+    1496 => 
+    array (
+      '' => 
+      array (
+        'VALUE' => NULL,
+        'DESCRIPTION' => NULL,
+      ),
+    ),
+    1498 => 
+    array (
+      227243191 => 
+      array (
+        'VALUE' => 'XXL',
+        'DESCRIPTION' => 'Размер',
+      ),
+    ),
+    1499 => 
+    array (
+      '' => 
+      array (
+        'VALUE' => NULL,
+        'DESCRIPTION' => NULL,
+      ),
+    ),
+    1500 => 
+    array (
+      '' => 
+      array (
+        'VALUE' => NULL,
+        'DESCRIPTION' => NULL,
+      ),
+    ),
+    1501 => 
+    array (
+      '' => 
+      array (
+        'VALUE' => NULL,
+        'DESCRIPTION' => NULL,
+      ),
+    ),
+    1504 => 
+    array (
+      '' => 
+      array (
+        'VALUE' => NULL,
+        'DESCRIPTION' => NULL,
+      ),
+    ),
+  ),
+  'ACTIVE' => 'Y',
+  'PREVIEW_TEXT_TYPE' => 'text',
+  'DETAIL_TEXT_TYPE' => 'text',
+  'XML_ID' => 'd104e84d-9118-11ef-812c-ac1f6b3e2f21#554a16c6-ee16-11ec-80f7-ac1f6b3e2f21',
+  'MODIFIED_BY' => '1',
+  'WF' => 'N',
+  'SEARCHABLE_CONTENT' => 'БРЮКИ МУЖСКИЕ KIVACH, КАМУФЛЯЖ TRAILBLAZER/ЧЁРНЫЙ (XXL)
+
+',
+  'ID' => 60119,
+  'IBLOCK_ID' => '108',
+  'RESULT' => true,
+)
+
+'15960'
+
+'15960'
+
+'15960'
+

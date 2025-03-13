@@ -1,14 +1,6 @@
 <?php
 $arUrlRewrite=array (
-  8 =>
-  array (
-    'CONDITION' => '#^/catalog/rod-zanyatiy/gorod/#',
-    'RULE' => '',
-    'ID' => '',
-    'PATH' => '/catalog/rod-zanyatiy/gorod/index.php',
-    'SORT' => 100,
-  ),
-  7 =>
+  7 => 
   array (
     'CONDITION' => '#^/catalog/rod-zanyatiy/taktika/#',
     'RULE' => '',
@@ -16,7 +8,7 @@ $arUrlRewrite=array (
     'PATH' => '/catalog/rod-zanyatiy/taktika/index.php',
     'SORT' => 100,
   ),
-  6 =>
+  6 => 
   array (
     'CONDITION' => '#^/catalog/rod-zanyatiy/okhota/#',
     'RULE' => '',
@@ -24,7 +16,15 @@ $arUrlRewrite=array (
     'PATH' => '/catalog/rod-zanyatiy/okhota/index.php',
     'SORT' => 100,
   ),
-  5 =>
+  8 => 
+  array (
+    'CONDITION' => '#^/catalog/rod-zanyatiy/gorod/#',
+    'RULE' => '',
+    'ID' => '',
+    'PATH' => '/catalog/rod-zanyatiy/gorod/index.php',
+    'SORT' => 100,
+  ),
+  5 => 
   array (
     'CONDITION' => '#^/catalog/rod-zanyatiy/#',
     'RULE' => '',
@@ -32,7 +32,7 @@ $arUrlRewrite=array (
     'PATH' => '/catalog/rod-zanyatiy/index.php',
     'SORT' => 100,
   ),
-  4 =>
+  4 => 
   array (
     'CONDITION' => '#^/catalog/bestsellery/#',
     'RULE' => '',

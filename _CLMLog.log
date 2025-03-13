@@ -1,0 +1,387 @@
+IBlockElementUpdateHandler:
+array (
+  'ACTIVE' => 'Y',
+  'MODIFIED_BY' => '1',
+  'IBLOCK_ID' => 108,
+  'ACTIVE_FROM' => '',
+  'ACTIVE_TO' => '',
+  'SORT' => '500',
+  'NAME' => 'БРЮКИ МУЖСКИЕ KIVACH, хаки (L RU50 EU34)',
+  'CODE' => 'bryuki_muzhskie_kivach_khaki_l_ru50_eu34',
+  'TAGS' => '',
+  'PREVIEW_PICTURE' => 
+  array (
+    'name' => NULL,
+    'type' => NULL,
+    'tmp_name' => NULL,
+    'error' => 4,
+    'size' => 0,
+  ),
+  'PREVIEW_TEXT' => '',
+  'PREVIEW_TEXT_TYPE' => 'text',
+  'DETAIL_PICTURE' => 
+  array (
+    'name' => NULL,
+    'type' => NULL,
+    'tmp_name' => NULL,
+    'error' => 4,
+    'size' => 0,
+  ),
+  'DETAIL_TEXT' => '',
+  'DETAIL_TEXT_TYPE' => 'text',
+  'TMP_ID' => '0',
+  'PROPERTY_VALUES' => 
+  array (
+    1505 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1506 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '15947',
+      ),
+    ),
+    1497 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1500 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1504 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1538 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1499 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1501 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1498 => 
+    array (
+      226401444 => 
+      array (
+        'VALUE' => 'L RU50 EU34',
+        'DESCRIPTION' => 'Размер',
+      ),
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1496 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1495 => 
+    array (
+      226401443 => 
+      array (
+        'VALUE' => '59861',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1502 => 
+    array (
+    ),
+    1503 => 
+    array (
+    ),
+  ),
+  'XML_ID' => 'bc605fb6-9118-11ef-812c-ac1f6b3e2f21#05cfa37c-e47c-11eb-80cc-ac1f6b3e2f21',
+  'ID' => 60065,
+)
+
+$oneCSize:
+'15947'
+
+$sizeProp:
+array (
+  'ID' => '15947',
+  'VALUE' => 'L RU50 EU34',
+)
+
+IBlockElementUpdateHandler:
+array (
+  'ACTIVE' => 'Y',
+  'MODIFIED_BY' => '1',
+  'IBLOCK_ID' => 108,
+  'ACTIVE_FROM' => '',
+  'ACTIVE_TO' => '',
+  'SORT' => '500',
+  'NAME' => 'КУРТКА МУЖСКАЯ KIVACH, темно-зелёная (XXL)',
+  'CODE' => 'kurtka_muzhskaya_kivach_temno_zelyenaya_xxl',
+  'TAGS' => '',
+  'PREVIEW_PICTURE' => 
+  array (
+    'name' => NULL,
+    'type' => NULL,
+    'tmp_name' => NULL,
+    'error' => 4,
+    'size' => 0,
+  ),
+  'PREVIEW_TEXT' => '',
+  'PREVIEW_TEXT_TYPE' => 'text',
+  'DETAIL_PICTURE' => 
+  array (
+    'name' => NULL,
+    'type' => NULL,
+    'tmp_name' => NULL,
+    'error' => 4,
+    'size' => 0,
+  ),
+  'DETAIL_TEXT' => '',
+  'DETAIL_TEXT_TYPE' => 'text',
+  'TMP_ID' => 0,
+  'PROPERTY_VALUES' => 
+  array (
+    1505 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1506 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '15960',
+      ),
+    ),
+    1495 => 
+    array (
+      226400685 => 
+      array (
+        'VALUE' => '59857',
+      ),
+    ),
+    1496 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1497 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1498 => 
+    array (
+      226400686 => 
+      array (
+        'VALUE' => 'XXL',
+        'DESCRIPTION' => 'Размер',
+      ),
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1499 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1500 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1501 => 
+    array (
+      'n0' => 
+      array (
+        'VALUE' => '',
+        'DESCRIPTION' => '',
+      ),
+    ),
+    1504 => 
+    array (
+      0 => 
+      array (
+        'VALUE' => '',
+      ),
+    ),
+    1538 => 
+    array (
+      210571953 => 
+      array (
+        'VALUE' => 'lM75U14i',
+      ),
+    ),
+    1502 => 
+    array (
+    ),
+    1503 => 
+    array (
+    ),
+  ),
+  'IBLOCK_SECTION' => 
+  array (
+  ),
+  'XML_ID' => 'b1f84474-9116-11ef-812c-ac1f6b3e2f21#554a16c6-ee16-11ec-80f7-ac1f6b3e2f21',
+  'IPROPERTY_TEMPLATES' => 
+  array (
+    'ELEMENT_META_TITLE' => '',
+    'ELEMENT_META_KEYWORDS' => '',
+    'ELEMENT_META_DESCRIPTION' => '',
+    'ELEMENT_PAGE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_ALT' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_PREVIEW_PICTURE_FILE_NAME' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_ALT' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_TITLE' => '',
+    'ELEMENT_DETAIL_PICTURE_FILE_NAME' => '',
+  ),
+  'ID' => 59914,
+)
+
+$oneCSize:
+'15960'
+
+$sizeProp:
+array (
+  'ID' => '15960',
+  'VALUE' => 'XXL',
+)
+
+$oneCSize:
+'15960'
+
+$sizeProp:
+array (
+  'ID' => '15960',
+  'VALUE' => 'XXL',
+)
+
+$oneCSize:
+'15960'
+
+$sizeProp:
+array (
+  'ID' => '15960',
+  'VALUE' => 'XXL',
+)
+
+$oneCSize:
+'15960'
+
+$sizeProp:
+array (
+  'ID' => '15960',
+  'VALUE' => 'XXL',
+)
+
+$oneCSize:
+'15960'
+
+$sizeProp:
+array (
+  'ID' => '15960',
+  'VALUE' => 'XXL',
+)
+
+$oneCSize:
+'15960'
+
+$sizeProp:
+array (
+  'ID' => '15960',
+  'VALUE' => 'XXL',
+)
+
+$oneCSize:
+'15960'
+
+$sizeProp:
+array (
+  'ID' => '15960',
+  'VALUE' => 'XXL',
+)
+
+$oneCSize:
+'15960'
+
+$sizeProp:
+array (
+  'ID' => '15960',
+  'VALUE' => 'XXL',
+)
+
+$oneCSize:
+'15960'
+
+$sizeProp:
+array (
+  'ID' => '15960',
+  'VALUE' => 'XXL',
+)
+
+$oneCSize:
+'15960'
+
+$sizeProp:
+array (
+  'ID' => '15960',
+  'VALUE' => 'XXL',
+)
+
+$oneCSize:
+'15960'
+
+$sizeProp:
+array (
+  'ID' => '15960',
+  'VALUE' => 'XXL',
+)
+

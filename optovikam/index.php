@@ -21,19 +21,19 @@ $APPLICATION->SetTitle('Оптовикам'); ?>
         ); ?>
         <div class="images-block">
             <div class="image-block big-image-block">
-                <img src="<?= SITE_TEMPLATE_PATH . '/img/opt/image-big-block.png' ?>" alt="">
+                <img src="<?= SITE_TEMPLATE_PATH . '/img/opt/img1.jpg' ?>" alt="">
             </div>
             <div class="image-block">
-                <img src="<?= SITE_TEMPLATE_PATH . '/img/opt/image-small-1.png' ?>" alt="">
+                <img src="<?= SITE_TEMPLATE_PATH . '/img/opt/img2.jpg' ?>" alt="">
             </div>
             <div class="image-block">
-                <img src="<?= SITE_TEMPLATE_PATH . '/img/opt/image-small-2.png' ?>" alt="">
+                <img src="<?= SITE_TEMPLATE_PATH . '/img/opt/img3.jpg' ?>" alt="">
             </div>
             <div class="image-block">
-                <img src="<?= SITE_TEMPLATE_PATH . '/img/opt/image-small-3.png' ?>" alt="">
+                <img src="<?= SITE_TEMPLATE_PATH . '/img/opt/img4.jpg' ?>" alt="">
             </div>
             <div class="image-block">
-                <img src="<?= SITE_TEMPLATE_PATH . '/img/opt/image-small-4.png' ?>" alt="">
+                <img src="<?= SITE_TEMPLATE_PATH . '/img/opt/img5.jpg' ?>" alt="">
             </div>
             <div class="image-block big-image-block text-block">
                 <?php $APPLICATION->IncludeComponent(

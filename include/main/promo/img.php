@@ -1,1 +1,1 @@
-<img src="<?= SITE_TEMPLATE_PATH ?>/img/promo.png" alt="">
+<img alt="Hut banner2.jpg" src="/upload/medialibrary/b40/p0bpo8xu4h27penc8rsfi150dgx3y73g/Hut-banner2.jpg" title="Hut banner2.jpg">
