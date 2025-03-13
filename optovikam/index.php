@@ -237,6 +237,9 @@ $APPLICATION->SetTitle('Оптовикам'); ?>
         ); ?>
     </div>
 </section>
+<? 
+global $arrfilter;
+$arrfilter = ['PROPERTY_SHOW_VALUE' => "Оптовикам"]; ?>
 <section class="opt_contacts">
     <div class="container">
         <?php $APPLICATION->IncludeComponent(
@@ -264,7 +267,7 @@ $APPLICATION->SetTitle('Оптовикам'); ?>
                 'DISPLAY_PREVIEW_TEXT' => 'Y',
                 'DISPLAY_TOP_PAGER' => 'N',
                 'FIELD_CODE' => [],
-                'FILTER_NAME' => '',
+                'FILTER_NAME' => 'arrfilter',
                 'HIDE_LINK_WHEN_NO_DETAIL' => 'N',
                 'IBLOCK_ID' => IblockHelper::getIdByCode('contacts'),
                 'IBLOCK_TYPE' => 'hut',

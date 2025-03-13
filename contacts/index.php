@@ -18,6 +18,9 @@ use Helpers\IblockHelper;
 		<h1 class="guaranteesHead__title"><?php $APPLICATION->ShowTitle(false); ?></h1>
 	</div>
 </section>
+<? 
+global $arrfilter;
+$arrfilter = ['PROPERTY_SHOW_VALUE' => "Контакты"]; ?>
 <? $APPLICATION->IncludeComponent(
 	"bitrix:news.list",
 	"contacts",
@@ -43,7 +46,7 @@ use Helpers\IblockHelper;
 		"DISPLAY_PREVIEW_TEXT" => "Y",
 		"DISPLAY_TOP_PAGER" => "N",
 		"FIELD_CODE" => array(0 => "", 1 => "",),
-		"FILTER_NAME" => "",
+		"FILTER_NAME" => "arrfilter",
 		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
 		"IBLOCK_ID" => IblockHelper::getIdByCode('contacts'),
 		"IBLOCK_TYPE" => "hut",
