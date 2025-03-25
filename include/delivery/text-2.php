@@ -8,5 +8,5 @@
 	 Санкт-Петербург, Петроградская набережная, 18&nbsp;
 </p>
 <p>
-	Перед приездом подтвердите заказ у менеджера по телефону: <a href="tel:+78007750304" style="font-family: var(--ui-font-family-primary, var(--ui-font-family-helvetica));">+7 (800) 775-03-04</a>. Звонок бесплатный.
+	Перед приездом подтвердите заказ у менеджера по телефону: <a href="tel:+78003025216" style="font-family: var(--ui-font-family-primary, var(--ui-font-family-helvetica));">+7 (800) 302-52-16</a>. Звонок бесплатный.
 </p>
