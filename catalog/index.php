@@ -91,7 +91,7 @@ $APPLICATION->SetPageProperty("need_slider", 'Y');
 		"HIDE_NOT_AVAILABLE" => "N",
 		"HIDE_NOT_AVAILABLE_OFFERS" => "L",
 		"IBLOCK_ID" => IblockHelper::getIdByCode("hutMainCatalog"),
-		"IBLOCK_TYPE" => "hut",
+		"IBLOCK_TYPE" => "1c_catalog",
 		"INCLUDE_SUBSECTIONS" => "Y",
 		"INSTANT_RELOAD" => "N",
 		"LABEL_PROP" => array(
