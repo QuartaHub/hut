@@ -81,8 +81,8 @@ $APPLICATION->SetPageProperty("need_slider", 'Y');
 	false
 ); ?>
 <? $APPLICATION->IncludeComponent(
-	"bitrix:catalog.section",
-	"main-page",
+	"bitrix:catalog.section", 
+	"main-page", 
 	array(
 		"ACTION_VARIABLE" => "action",
 		"ADD_PICT_PROP" => "-",
@@ -103,7 +103,7 @@ $APPLICATION->SetPageProperty("need_slider", 'Y');
 		"CACHE_TYPE" => "A",
 		"COMPATIBLE_MODE" => "N",
 		"CONVERT_CURRENCY" => "N",
-        "CUSTOM_FILTER" => "{\"CLASS_ID\":\"CondGroup\",\"DATA\":{\"All\":\"AND\",\"True\":\"True\"},\"CHILDREN\":[{\"CLASS_ID\":\"CondIBProp:110:1524\",\"DATA\":{\"logic\":\"Equal\",\"value\":14607}}]}",
+		"CUSTOM_FILTER" => "{\"CLASS_ID\":\"CondGroup\",\"DATA\":{\"All\":\"AND\",\"True\":\"True\"},\"CHILDREN\":[{\"CLASS_ID\":\"CondIBProp:107:1592\",\"DATA\":{\"logic\":\"Equal\",\"value\":16889}}]}",
 		"DETAIL_URL" => "",
 		"DISABLE_INIT_JS_IN_COMPONENT" => "N",
 		"DISPLAY_BOTTOM_PAGER" => "Y",
@@ -118,12 +118,13 @@ $APPLICATION->SetPageProperty("need_slider", 'Y');
 		"HIDE_NOT_AVAILABLE" => "N",
 		"HIDE_NOT_AVAILABLE_OFFERS" => "N",
 		"IBLOCK_ID" => IblockHelper::getIdByCode("hutMainCatalog"),
-		"IBLOCK_TYPE" => "hut",
+		"IBLOCK_TYPE" => "1c_catalog",
 		"INCLUDE_SUBSECTIONS" => "Y",
 		"LABEL_PROP" => array(
 			0 => "TYPE",
 		),
-		"LABEL_PROP_MOBILE" => "",
+		"LABEL_PROP_MOBILE" => array(
+		),
 		"LABEL_PROP_POSITION" => "top-left",
 		"LAZY_LOAD" => "N",
 		"LINE_ELEMENT_COUNT" => "3",

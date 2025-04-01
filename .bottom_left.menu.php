@@ -30,21 +30,7 @@ $aMenuLinks = Array(
 	),
 	Array(
 		"Аксессуары", 
-		"/catalog/aksessuary/", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
-		"Сумки", 
-		"/catalog/sumki/", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
-		"Обувь", 
-		"/catalog/obuv/", 
+		"/catalog/odezhda/golovnye_ubory/", 
 		Array(), 
 		Array(), 
 		"" 
