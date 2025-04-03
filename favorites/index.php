@@ -71,7 +71,7 @@ if (is_array($favoritesIds) && count($favoritesIds)) { ?>
                 "FILTER_NAME" => "favFilter",
                 "HIDE_NOT_AVAILABLE" => "N",
                 "HIDE_NOT_AVAILABLE_OFFERS" => "N",
-                "IBLOCK_ID" => IblockHelper::getIdByCode("hutcatalog"),
+                "IBLOCK_ID" => IblockHelper::getIdByCode("hutMainCatalog"),
                 "IBLOCK_TYPE" => "hut",
                 "INCLUDE_SUBSECTIONS" => "Y",
                 "LABEL_PROP" => array(

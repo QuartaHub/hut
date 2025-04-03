@@ -22,7 +22,10 @@ use Helpers\IblockHelper;
 	</div>
 </section>
 
-<? $APPLICATION->IncludeComponent(
+<?php
+$GLOBALS['arAdressesFilter'] = ['PROPERTY_SHOW_VALUE' => 'Контакты'];
+
+$APPLICATION->IncludeComponent(
 	"bitrix:news.list",
 	"addresses",
 	array(
@@ -49,7 +52,7 @@ use Helpers\IblockHelper;
 			0 => "",
 			1 => "",
 		),
-		"FILTER_NAME" => "",
+		"FILTER_NAME" => "arAdressesFilter",
 		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
 		"IBLOCK_ID" => IblockHelper::getIdByCode('contacts'),
 		"IBLOCK_TYPE" => "hut",
