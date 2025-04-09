@@ -27,9 +27,9 @@ $APPLICATION->SetTitle("Пользовательское соглашение");
 			"bitrix:main.include",
 			"",
 			array(
-				"AREA_FILE_SHOW" => "page",
+				"AREA_FILE_SHOW" => "file",
 				"AREA_FILE_SUFFIX" => "inc",
-				"EDIT_TEMPLATE" => ""
+				"EDIT_TEMPLATE" => "/include/policy/oferta.php"
 			)
 		); ?>
 	</div>
