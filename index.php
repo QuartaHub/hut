@@ -222,7 +222,7 @@ $APPLICATION->SetPageProperty("need_slider", 'Y');
 	),
 	false
 ); ?>
-
+<?php /*
 <div class="main-page__promo container">
 	<div class="main-page__promo-inner">
 		<div class="main-page__promo-img">
@@ -249,7 +249,7 @@ $APPLICATION->SetPageProperty("need_slider", 'Y');
 		</div>
 	</div>
 </div>
-
+*/?>
 <?php $APPLICATION->IncludeComponent(
     "bitrix:news.list",
     "main-page-types",

@@ -29,7 +29,8 @@ $APPLICATION->SetTitle("Пользовательское соглашение");
 			array(
 				"AREA_FILE_SHOW" => "file",
 				"AREA_FILE_SUFFIX" => "inc",
-				"EDIT_TEMPLATE" => "/include/policy/oferta.php"
+                                "EDIT_TEMPLATE" => "",
+				"PATH" => "/include/policy/oferta.php"
 			)
 		); ?>
 	</div>
