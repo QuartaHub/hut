@@ -23,7 +23,7 @@ $APPLICATION->SetTitle("Охота"); ?>
 ?>
     <div id="filter_modal" class="modal">
         <?php
-            $GLOBALS['ohotaPreFilter'] = ['PROPERTY_TYPE_VALUE' => 'Охота'];
+            $GLOBALS['ohotaPreFilter'] = ['PROPERTY_ROD_ZANYATIY_VALUE' => 'Охота'];
         ?>
         <?php $APPLICATION->IncludeComponent(
             "custom:catalog.smart.filter",

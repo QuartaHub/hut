@@ -23,7 +23,7 @@ $APPLICATION->SetTitle("Тактика"); ?>
 ?>
     <div id="filter_modal" class="modal">
         <?php
-            $GLOBALS['taktikaPreFilter'] = ['PROPERTY_TYPE_VALUE' => 'Тактика'];
+            $GLOBALS['taktikaPreFilter'] = ['PROPERTY_ROD_ZANYATIY_VALUE' => 'Тактика'];
         ?>
         <?php $APPLICATION->IncludeComponent(
             "custom:catalog.smart.filter",
