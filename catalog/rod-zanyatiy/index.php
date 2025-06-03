@@ -23,7 +23,7 @@ $APPLICATION->SetTitle("Род занятий"); ?>
 ?>
     <div id="filter_modal" class="modal">
         <?php
-            $GLOBALS['rodZaniyatiyPreFilter'] = ['!PROPERTY_TYPE_VALUE' => false];
+            $GLOBALS['rodZaniyatiyPreFilter'] = ['!PROPERTY_ROD_ZANYATIY_VALUE' => false];
         ?>
         <?php $APPLICATION->IncludeComponent(
             "custom:catalog.smart.filter",

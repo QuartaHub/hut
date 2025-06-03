@@ -1,7 +1,7 @@
 <?php
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle("О компании");
-?><section class="aboutHead" title="Код PHP: &lt;?= SITE_TEMPLATE_PATH ?&gt;">
+?><section class="aboutHead" >
 <div class="aboutHead__container">
 	 <?$APPLICATION->IncludeComponent(
 	"bitrix:breadcrumb",

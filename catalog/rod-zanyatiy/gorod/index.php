@@ -23,7 +23,7 @@ $APPLICATION->SetTitle("Город"); ?>
 ?>
     <div id="filter_modal" class="modal">
         <?php
-            $GLOBALS['gorodPreFilter'] = ['PROPERTY_TYPE_VALUE' => 'Город'];
+            $GLOBALS['gorodPreFilter'] = ['PROPERTY_ROD_ZANYATIY_VALUE' => 'Город'];
         ?>
         <?php $APPLICATION->IncludeComponent(
             "custom:catalog.smart.filter",

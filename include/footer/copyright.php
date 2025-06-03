@@ -1,1 +1,1 @@
-© «HUT» <?= date("Y"); ?>. Все права защищены.
+<span style="font-size: 10pt;">©&nbsp;«H.U.T. Hitting Ultimate Targets»&nbsp;</span>2024-<?= date("Y"); ?><span style="font-size: 10pt;">. Все права защищены.</span>

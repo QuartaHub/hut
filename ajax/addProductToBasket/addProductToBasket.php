@@ -63,6 +63,7 @@ if ($basketRes) {
                         'ID',
                         'NAME',
                         'PREVIEW_PICTURE',
+                        'DETAIL_PICTURE',
                         'CLOTHES_SIZE',
                         'COLOR'
                     ],
@@ -83,6 +84,10 @@ if ($basketRes) {
 
                     if ($element->getPreviewPicture()) {
                         $basketProduct['PICTURE'] = CFile::GetPath($element->getPreviewPicture());
+                    }
+
+                    if (!$basketProduct['PICTURE'] && $element->getDetailPicture()) {
+                        $basketProduct['PICTURE'] = CFile::GetPath($element->getDetailPicture());
                     }
 
                     if ($element->getColor() && $element->getColor()->getValue()) {
@@ -141,7 +146,8 @@ if ($basketRes) {
                         if (!$basketProduct['PICTURE']) {
                             $mainProduct = ElementHutMainCatalogTable::getList([
                                 'select' => [
-                                    'PREVIEW_PICTURE'
+                                    'PREVIEW_PICTURE',
+                                    'DETAIL_PICTURE'
                                 ],
                                 'filter' => [
                                     'ACTIVE' => 'Y',
@@ -151,6 +157,10 @@ if ($basketRes) {
 
                             if ($mainProduct && $mainProduct->getPreviewPicture()) {
                                 $basketProduct['PICTURE'] = CFile::GetPath($mainProduct->getPreviewPicture());
+                            }
+
+                            if (!$basketProduct['PICTURE'] && $mainProduct && $mainProduct->getDetailPicture()) {
+                                $basketProduct['PICTURE'] = CFile::GetPath($mainProduct->getDetailPicture());
                             }
                         }
 
@@ -173,7 +183,8 @@ if ($basketRes) {
                     'select' => [
                         'ID',
                         'NAME',
-                        'PREVIEW_PICTURE'
+                        'PREVIEW_PICTURE',
+                        'DETAIL_PICTURE'
                     ],
                     'filter' => [
                         'ACTIVE' => 'Y',
@@ -192,6 +203,10 @@ if ($basketRes) {
 
                     if ($element->getPreviewPicture()) {
                         $basketProduct['PICTURE'] = CFile::GetPath($element->getPreviewPicture());
+                    }
+
+                    if (!$basketProduct['PICTURE'] && $element->getDetailPicture()) {
+                        $basketProduct['PICTURE'] = CFile::GetPath($element->getDetailPicture());
                     }
 
                     $sections = CIBlockElement::GetElementGroups($productsId['ID'], true, ['ID', 'NAME']);

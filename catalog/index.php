@@ -89,7 +89,7 @@ $APPLICATION->SetPageProperty("need_slider", 'Y');
 		"GIFTS_SHOW_NAME" => "Y",
 		"GIFTS_SHOW_OLD_PRICE" => "Y",
 		"HIDE_NOT_AVAILABLE" => "N",
-		"HIDE_NOT_AVAILABLE_OFFERS" => "L",
+		"HIDE_NOT_AVAILABLE_OFFERS" => "Y",
 		"IBLOCK_ID" => IblockHelper::getIdByCode("hutMainCatalog"),
 		"IBLOCK_TYPE" => "1c_catalog",
 		"INCLUDE_SUBSECTIONS" => "Y",

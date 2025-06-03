@@ -45,8 +45,8 @@ $APPLICATION->SetTitle("Личный кабинет");
 		"addamant:personal.reviews",
 		"",
 		array(
-			"CATALOG_ID" => IblockHelper::getIdByCode("hutcatalog"),
-			'OFFERS_CATALOG_ID' => IblockHelper::getIdByCode("hutcatalogoffers"),
+			"CATALOG_ID" => IblockHelper::getIdByCode("hutMainCatalog"),
+			'OFFERS_CATALOG_ID' => IblockHelper::getIdByCode("hutMainOffersCatalog"),
 		)
 	);
 	?>
