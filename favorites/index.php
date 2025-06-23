@@ -32,7 +32,27 @@ $favoritesIds = $favorites->getFavoritesIds();
 $GLOBALS['favFilter'] = ['ID' => $favoritesIds];
 
 if (is_array($favoritesIds) && count($favoritesIds)) { ?>
-    <section class="container">
+    <section class="container with-sidebar">
+        <?php
+            $APPLICATION->IncludeComponent(
+                "bitrix:menu",
+                "personal",
+                Array(
+                    "COMPONENT_TEMPLATE" => "",
+                    "ROOT_MENU_TYPE" => "sidebar",
+                    "MENU_CACHE_TYPE" => "N",
+                    "MENU_CACHE_TIME" => "3600",
+                    "MENU_CACHE_USE_GROUPS" => "Y",
+                    "MENU_CACHE_GET_VARS" => "",
+                    "MAX_LEVEL" => "1",
+                    "CHILD_MENU_TYPE" => "left",
+                    "USE_EXT" => "N",
+                    "DELAY" => "N",
+                    "ALLOW_MULTI_SELECT" => "N",
+                ),
+                false
+            );
+        ?>
 
         <? $APPLICATION->IncludeComponent(
             "bitrix:catalog.section",
@@ -200,7 +220,27 @@ if (is_array($favoritesIds) && count($favoritesIds)) { ?>
 
     $GLOBALS['favFilter'] = ['ID' => array_column($favoritesIds, 'ID')];
 ?>
-    <section class="container">
+    <section class="container with-sidebar">
+        <?php
+            $APPLICATION->IncludeComponent(
+                "bitrix:menu",
+                "personal",
+                Array(
+                    "COMPONENT_TEMPLATE" => "",
+                    "ROOT_MENU_TYPE" => "sidebar",
+                    "MENU_CACHE_TYPE" => "N",
+                    "MENU_CACHE_TIME" => "3600",
+                    "MENU_CACHE_USE_GROUPS" => "Y",
+                    "MENU_CACHE_GET_VARS" => "",
+                    "MAX_LEVEL" => "1",
+                    "CHILD_MENU_TYPE" => "left",
+                    "USE_EXT" => "N",
+                    "DELAY" => "N",
+                    "ALLOW_MULTI_SELECT" => "N",
+                ),
+                false
+            );
+        ?>
         <div class="favorites__empty">
             <svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192" fill="none">
                 <path d="M35 104.625H157L117.786 65.8125L157 27H35V165" stroke="#F0F2F5" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
