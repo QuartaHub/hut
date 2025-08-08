@@ -18,7 +18,7 @@ use Helpers\IblockHelper;
 		<h1 class="guaranteesHead__title"><?php $APPLICATION->ShowTitle(false); ?></h1>
 	</div>
 </section>
-<? 
+<?
 global $arrfilter;
 $arrfilter = ['PROPERTY_SHOW_VALUE' => "Контакты"]; ?>
 <? $APPLICATION->IncludeComponent(
@@ -79,6 +79,40 @@ $arrfilter = ['PROPERTY_SHOW_VALUE' => "Контакты"]; ?>
 		"STRICT_SECTION_CHECK" => "N"
 	)
 ); ?>
+<section class="opt_image-block">
+	<div class="container">
+		<div class="text-under-images">
+			<div class="text-under-images__item">
+				<div class="image-block big-image-block text-block">
+					<?php $APPLICATION->IncludeComponent(
+						'bitrix:main.include',
+						'.default',
+						[
+							'AREA_FILE_SHOW' => 'file',
+							'AREA_FILE_SUFFIX' => 'inc',
+							'EDIT_TEMPLATE' => '',
+							'PATH' => '/include/contacts/text_under_maps1.php'
+						]
+					); ?>
+				</div>
+			</div>
+			<div class="text-under-images__item">
+				<div class="image-block big-image-block text-block">
+					<?php $APPLICATION->IncludeComponent(
+						'bitrix:main.include',
+						'.default',
+						[
+							'AREA_FILE_SHOW' => 'file',
+							'AREA_FILE_SUFFIX' => 'inc',
+							'EDIT_TEMPLATE' => '',
+							'PATH' => '/include/contacts/text_under_maps2.php'
+						]
+					); ?>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 <section class="contacts bottom">
 	<div class="contacts__wrap">
 		<div class="contacts__card">
