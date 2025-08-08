@@ -79,9 +79,9 @@ $arrfilter = ['PROPERTY_SHOW_VALUE' => "Контакты"]; ?>
 		"STRICT_SECTION_CHECK" => "N"
 	)
 ); ?>
-<section class="opt_image-block">
+<section class="opt_image-block" style="padding: 0 0 64px 0;border-top: unset;">
 	<div class="container">
-		<div class="text-under-images">
+		<div class="text-under-images" style="margin-top: unset;">
 			<div class="text-under-images__item">
 				<div class="image-block big-image-block text-block">
 					<?php $APPLICATION->IncludeComponent(
